@@ -1,0 +1,19 @@
+{
+  "name": "eggbot",
+  "version": "1.0.0",
+  "description": "egg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "playermode",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "npm",
+    "start"
+  ]
+}
