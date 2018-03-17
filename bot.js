@@ -22,7 +22,7 @@ var WOD = [
     "Todays word of the day is Anime Police",
     "Todays word of the day is President",
     "Todays word of the day is Nefarious",
-    "Todays word of the day is Bart Bot!",
+    "Todays word of the day is Egg Bot!",
     "Todays word of the day is Gab2005",
     "Todays word of the day is Anime",
     "Todays word of the day is Elmo",
@@ -64,7 +64,8 @@ var WOD = [
     "Todays word of the day is thank lunarx for some words :egg2:",
     "Todays word of the day is watch lunax's cprmvs",
     "Todays word of the day is i miss club penguin",
-    "Todays word of the day is namaste"
+    "Todays word of the day is namaste",
+    "Todays word of the day is Vert!"
 ];
 
 var eggrating = [
@@ -139,7 +140,9 @@ var whodidit = [
     "The egg president",
     "The spy in this server",
     "Codey",
-    "Lunax and Skystone"
+    "Lunax and Skystone",
+    "Vert",
+    "Shaz
 ];
 
 client.on("message", function(message) {
@@ -150,7 +153,7 @@ client.on("message", function(message) {
   var args = message.content.substring(PREFIX.length).split(" ");
 
   switch (args[0].toLocaleLowerCase()) {
-    case "bartbotisanegg":
+    case "eggbotisanegg":
       message.channel.sendMessage("nou")
       break;
     case "8ball":
@@ -286,6 +289,9 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424566056368209921/egg32.gif")
         message.channel.sendEmbed(helicopter);
         break;
+    case "ahyes":
+      message.channel.sendMessage("Of course")
+      break;
   }
 });
 
