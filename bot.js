@@ -282,7 +282,7 @@ bot.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    bot.user.setGame("!help");
+    client.user.setGame("!help");
     console.log('I am ready!');
 });
 
