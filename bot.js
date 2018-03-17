@@ -108,7 +108,7 @@ var whodidit = [
     "scott cawthon",
     "lunarx",
     "pingkeplol69",
-    "Pengkips dead youtube channel",
+    "Pengkips youtube channel",
     "Driver3NO",
     "I don't know go ask gab, he holds the answer to everything",
     "Egg klan",
@@ -117,7 +117,7 @@ var whodidit = [
     "Playermode",
     "Eggmode",
     "Gab",
-    "Bag2004 (gab's older brother)",
+    "Bag2006 (gab's older brother)",
     "The egg lords of eggtown",
     "The ghost of eggmas past",
     "The locobat company",
@@ -142,7 +142,7 @@ var whodidit = [
     "Codey",
     "Lunax and Skystone",
     "Vert",
-    "Shaz
+    "Shaz"
 ];
 
 client.on("message", function(message) {
@@ -290,8 +290,8 @@ client.on("message", function(message) {
         message.channel.sendEmbed(helicopter);
         break;
     case "ahyes":
-      message.channel.sendMessage("Of course")
-      break;
+        message.channel.sendMessage("Of course")
+        break;
   }
 });
 
