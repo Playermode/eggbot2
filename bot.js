@@ -142,9 +142,7 @@ var whodidit = [
     "Lunax and Skystone"
 ];
 
-var bot = new Discord.Client();
-
-bot.on("message", function(message) {
+Client.on("message", function(message) {
   if (message.author.equals(bot.user)) return;
 
   if (!message.content.startsWith(PREFIX)) return;
