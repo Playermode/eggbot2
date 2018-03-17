@@ -295,7 +295,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-           .setDescription("Egg Bot is exclusive to only this server.  So you can not invite them to your own server.")
+            .setDescription("Egg Bot is exclusive to only this server.  So you can not invite them to your own server.")
          message.channel.sendEmbed(otherinfo);
          break;
     case "imageinfo":  
