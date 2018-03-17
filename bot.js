@@ -2,17 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
 
-client.on('ready', function() { 
-    bot.user.setGame("!help");
-    console.log('I am ready!');
-});
-
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
-
 var fortunes = [
     "Yes",
     "No",
@@ -290,6 +279,17 @@ bot.on("message", function(message) {
         message.channel.sendEmbed(gabstory1);
         break;
   }
+});
+
+client.on('ready', function() { 
+    bot.user.setGame("!help");
+    console.log('I am ready!');
+});
+
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
