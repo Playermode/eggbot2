@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
 
-client.on('ready', () => {
+client.on('ready', function() { 
+    bot.user.setGame("!help");
     console.log('I am ready!');
 });
 
@@ -154,13 +155,6 @@ var whodidit = [
     "Codey",
     "Lunax and Skystone"
 ];
-
-var bot = new Discord.Client();
-
-bot.on("ready", function() {
-  bot.user.setGame("!help");
-  console.log("Ready");
-});
 
 bot.on("message", function(message) {
   if (message.author.equals(bot.user)) return;
