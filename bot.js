@@ -143,7 +143,7 @@ var whodidit = [
 ];
 
 Client.on("message", function(message) {
-  if (message.author.equals(bot.user)) return;
+  if (message.author.equals(client.user)) return;
 
   if (!message.content.startsWith(PREFIX)) return;
 
