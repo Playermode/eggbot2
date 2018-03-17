@@ -295,7 +295,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-            .setDescription("8. Only use commands such as !slut in #mature")
+            .setDescription("Invite to the discord: https://discord.gg/FJwXcmq")
          message.channel.sendEmbed(otherinfo1);
          break;
     case "imageinfo":  
