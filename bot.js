@@ -295,7 +295,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-            .setDescription("8. Memes can contain swearing, **but** you can not swear in #memes")
+            .setDescription("9. Memes can contain swearing, **but** you can not swear in #memes")
          message.channel.sendEmbed(otherinfo1);
          break;
     case "imageinfo":  
