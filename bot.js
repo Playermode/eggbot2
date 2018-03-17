@@ -13,9 +13,6 @@ client.on('message', message => {
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
-
 var fortunes = [
     "Yes",
     "No",
@@ -294,3 +291,6 @@ bot.on("message", function(message) {
         break;
   }
 });
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
