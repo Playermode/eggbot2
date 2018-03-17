@@ -281,6 +281,8 @@ bot.on("message", function(message) {
   }
 });
 
+var bot = new Discord.Client();
+
 client.on('ready', function() { 
     client.user.setGame("!help");
     console.log('I am ready!');
