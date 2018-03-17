@@ -293,6 +293,16 @@ client.on("message", function(message) {
     case "ahyes":
         message.channel.sendMessage("Of course")
         break;
+    case "otherinfo":
+         var otherinfo1 = new Discord.RichEmbed()
+           .setDescription("Egg Bot is exclusive to only this server.  So you can not invite them to your own server.")
+        message.channel.sendEmbed(otherinfo);
+        break;
+    case "imageinfo":  
+         var imageinfo = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424618150969999373/otherinfo.png")
+         message.channel.sendEmbed(imageinfo);
+         break;
   }
 });
 
