@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const Client = new Discord.Client();
 const PREFIX = "!";
 
 var fortunes = [
@@ -142,6 +142,8 @@ var whodidit = [
     "Lunax and Skystone"
 ];
 
+var bot = new Discord.Client();
+
 bot.on("message", function(message) {
   if (message.author.equals(bot.user)) return;
 
@@ -280,8 +282,6 @@ bot.on("message", function(message) {
         break;
   }
 });
-
-var bot = new Discord.Client();
 
 client.on('ready', function() { 
     client.user.setGame("!help");
