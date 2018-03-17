@@ -193,6 +193,7 @@ client.on("message", function(message) {
             .addField("!lookatthesetwocharacters", "look at those two characters", true)
             .addField("!history", "learn the history about eggbot", true)
             .addField("!helicopter", "do what disney did and learn the way of the star wars helicopter!", true)
+            .addField("!gabstory", "hear a gab story", true)
             .setColor(0x00FFFF)
         message.channel.sendEmbed(embed);
         break;
