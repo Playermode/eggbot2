@@ -190,7 +190,9 @@ client.on("message", function(message) {
             .addField("!marie", "A certain persons favorite thing", true)
             .addField("!whodidit", "Ever wonder who did something? Ask egg bot then!", true)
             .addField("!thonk", "idk anymore", true)
-            .addField("!lookatthesetwocharacters.", "look at those two characters", true)
+            .addField("!lookatthesetwocharacters", "look at those two characters", true)
+            .addField("!history", "learn the history about eggbot", true)
+            .addField("!helicopter", "do what disney did and learn the way of the star wars helicopter!", true)
             .setColor(0x00FFFF)
         message.channel.sendEmbed(embed);
         break;
@@ -277,6 +279,11 @@ client.on("message", function(message) {
         var gabstory1 = new Discord.RichEmbed()
             .setImage("https://i.gyazo.com/thumb/1200/6466c15f9fdc1116fd937551627eb5e5-png.jpg")
         message.channel.sendEmbed(gabstory1);
+        break;
+    case "helicopter":
+        var helicopter = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424566056368209921/egg32.gif")
+        message.channel.sendEmbed(helicopter);
         break;
   }
 });
