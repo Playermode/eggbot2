@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Client = new Discord.Client();
+const client = new Discord.Client();
 const PREFIX = "!";
 
 var fortunes = [
@@ -142,7 +142,7 @@ var whodidit = [
     "Lunax and Skystone"
 ];
 
-Client.on("message", function(message) {
+client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
 
   if (!message.content.startsWith(PREFIX)) return;
