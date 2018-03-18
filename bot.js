@@ -331,8 +331,8 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/330847736192827392/424997005861847040/image.jpg")
           message.channel.sendEmbed(partner3);
           break; 
-    case "eggbotisanegg":
-      message.channel.sendMessage("nou")
+    case "everyone":
+      message.channel.sendMessage("@everyone")
       break;  
   }
 });
