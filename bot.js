@@ -303,6 +303,16 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424618150969999373/otherinfo.png")
          message.channel.sendEmbed(imageinfo);
          break;
+    case "eggman":
+         var eggman = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939614239850517/eggman.png")
+         message.channel.sendEmbed(eggman);
+         break;
+    case "eggrona": 
+         var eggronaman = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939632799514636/eggronaman.png")
+         message.channel.sendEmbed(eggronaman);
+         break;
   }
 });
 
