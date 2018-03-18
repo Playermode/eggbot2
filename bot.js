@@ -330,7 +330,10 @@ client.on("message", function(message) {
              .setDescription("Click Here to Join! https://discord.gg/SdhVgQn")
              .setImage("https://cdn.discordapp.com/attachments/330847736192827392/424997005861847040/image.jpg")
           message.channel.sendEmbed(partner3);
-          break;          
+          break; 
+    case "eggbotisanegg":
+      message.channel.sendMessage("nou")
+      break;  
   }
 });
 
