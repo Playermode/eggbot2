@@ -297,7 +297,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-            .setDescription("10. The only bot command allowed in #general is !important :eggman:")
+            .setDescription("@here")
          message.channel.sendEmbed(otherinfo1);
          break;
     case "imageinfo":  
