@@ -315,6 +315,22 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939632799514636/eggronaman.png")
          message.channel.sendEmbed(eggronaman);
          break;
+    case "partner":
+         var partner = new Discord.RichEmbed()
+            .setDescription("Join our partner: Pengkips Discord!")
+          message.channel.sendEmbed(partner);
+          break;
+    case "partner2":
+          var partner2 = new Discord.RichEmbed()
+             .setDescription("A server with custom emotes and bots, hang out with friends and listen to music in our variety of channels. Free art and meme sharing")
+          message.channel.sendEmbed(partner2);
+          break;
+    case "partner3":
+          var partner3 = new Discord.RichEmbed()
+             .setDescription("Click Here to Join! https://discord.gg/SdhVgQn")
+             .setImage("https://cdn.discordapp.com/attachments/330847736192827392/424997005861847040/image.jpg")
+          message.channel.sendEmbed(partner3);
+          break;          
   }
 });
 
