@@ -345,7 +345,7 @@ client.on("message", function(message) {
                                - We have #mature for all your special needs
                                :egg: *We hope to see you join soon!* :egg:
                                **Join here:https://discord.gg/DVexW3n** ")
-              .setImage("https://cdn.discordapp.com/attachments/343102240766296064/425001985738145812/eggtownlogo.png"                
+              .setImage("https://cdn.discordapp.com/attachments/343102240766296064/425001985738145812/eggtownlogo.png")                
           message.channel.sendEmbed(eggtowneggkip);
           break;
   }
