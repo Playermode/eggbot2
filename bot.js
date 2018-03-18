@@ -65,7 +65,8 @@ var WOD = [
     "Todays word of the day is watch lunax's cprmvs",
     "Todays word of the day is i miss club penguin",
     "Todays word of the day is namaste",
-    "Todays word of the day is Vert!"
+    "Todays word of the day is Vert!",
+    "Todays word of the day is FabledFish!"
 ];
 
 var eggrating = [
@@ -142,7 +143,9 @@ var whodidit = [
     "Codey",
     "Lunax and Skystone",
     "Vert",
-    "Shaz"
+    "Shaz",
+    "FabledFish",
+    "Club Penguin Online"
 ];
 
 client.on("message", function(message) {
