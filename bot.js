@@ -304,7 +304,8 @@ client.on("message", function(message) {
          message.channel.sendEmbed(imageinfo);
          break;
     case "important":
-         message.channel.sendMessage("https://www.youtube.com/watch?v=LZ3mHEmyycw")              
+         message.channel.sendMessage("https://www.youtube.com/watch?v=LZ3mHEmyycw")        
+         break;
   }
 });
 
