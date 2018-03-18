@@ -304,10 +304,7 @@ client.on("message", function(message) {
          message.channel.sendEmbed(imageinfo);
          break;
     case "important":
-         var childhood = new Discord.RichEmbed()
-            .setDescription("https://www.youtube.com/watch?v=LZ3mHEmyycw")
-         message.channel.sendEmbed(childhood);
-         break;          
+         message.channel.sendMessage("https://www.youtube.com/watch?v=LZ3mHEmyycw")              
   }
 });
 
