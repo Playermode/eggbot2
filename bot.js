@@ -336,15 +336,15 @@ client.on("message", function(message) {
       break;
     case "eggtownpartnership":
           var eggtowneggkip = new Discord.RichEmbed()
-              .setDescription(":egg: **The Eggtown Discord** :egg: 
-                               - A community discord which is based around everyone being a giant egg
-                               - We have the Egg Bot which is for this server only
-                               - We have classic emotes such as :eggman: and :eggronaman: 
-                               - We have the UnbelivaBoat bot which provides a broken great economy
-                               - We have many eggy channels such as #joeys-shrek-home 
-                               - We have #mature for all your special needs
-                               :egg: *We hope to see you join soon!* :egg:
-                               **Join here:https://discord.gg/DVexW3n** ")
+              .setTitle(":egg: **The Eggtown Discord** :egg:")
+              .addField("- A community discord which is based around everyone being a giant egg")
+              .addField("- We have the Egg Bot which is for this server only")
+              .addField("- We have classic emotes such as :eggman: and :eggronaman:")   
+              .addField("- We have the UnbelivaBoat bot which provides a broken great economy")
+              .addField("- We have many eggy channels such as #joeys-shrek-home") 
+              .addField("- We have #mature for all your special needs")
+              .addField(":egg: *We hope to see you join soon!* :egg:")
+              .addField("**Join here:https://discord.gg/DVexW3n**")
               .setImage("https://cdn.discordapp.com/attachments/343102240766296064/425001985738145812/eggtownlogo.png")                
           message.channel.sendEmbed(eggtowneggkip);
           break;
