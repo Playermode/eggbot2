@@ -303,6 +303,11 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424618150969999373/otherinfo.png")
          message.channel.sendEmbed(imageinfo);
          break;
+    case "important":
+         var childhood = new Discord.RichEmbed()
+            .setDescription("https://www.youtube.com/watch?v=LZ3mHEmyycw")
+         message.channel.sendEmbed(childhood);
+         break;          
   }
 });
 
