@@ -319,7 +319,7 @@ client.on("message", function(message) {
          message.channel.sendEmbed(eggronaman);
          break;
     case "pingdingdong":
-      message.channel.sendMessage("@everyone")
+      message.channel.sendMessage(":pingman: @everyone")
       break;
     case "partner":
          var partner = new Discord.RichEmbed()
