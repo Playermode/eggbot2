@@ -94,7 +94,7 @@ var job = [
     "Anime lover",
     "Egg president",
     "Egg lord",
-    "Bad egg, wow I bart bot havent commented on any other of these jobs but wow.  You should probably stop being a bad egg and become a good egg :egg2:",
+    "Bad egg, wow I egg bot havent commented on any other of these jobs but wow.  You should probably stop being a bad egg and become a good egg :egg2:",
     "Good egg",
     "Egg vice president",
     "Egg accountant",
@@ -300,7 +300,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-            .setDescription("@here")
+            .setDescription("If you want to get notifications for the poll channel then do -role pollping")
          message.channel.sendEmbed(otherinfo1);
          break;
     case "imageinfo":  
@@ -318,6 +318,9 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939632799514636/eggronaman.png")
          message.channel.sendEmbed(eggronaman);
          break;
+    case "pingdingdong":
+      message.channel.sendMessage("@everyone")
+      break;
     case "partner":
          var partner = new Discord.RichEmbed()
             .setDescription("Join our partner: Pengkips Discord!")
