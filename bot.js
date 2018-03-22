@@ -366,7 +366,7 @@ client.on("message", function(message) {
               .addField("- Do !help for all the commands", " ￼ ") 
               .addField("- Made by @Playermode#8623", " ￼ ")
               .addField("Current Version: 1.1", " ￼ ")
-              .addField("**Please do not ask to add egg bot to your server as he is only meant for this server.**", " ￼ ")
+              .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939614239850517/eggman.png")                
           message.channel.sendEmbed(info);
           break; 
