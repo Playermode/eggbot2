@@ -105,7 +105,7 @@ var job = [
 
 var whodidit = [
     "thekippinggamer",
-    "the anime police",
+    "the egg police",
     "scott cawthon",
     "lunarx",
     "pingkeplol69",
@@ -125,7 +125,7 @@ var whodidit = [
     "the mo-gang (play on mojang you uncultured swine)",
     "steven",
     "a long overdue diss track",
-    "anime (CALL THE ANIME POLICE AAAHHG",
+    "bad eggs (CALL THE EGG POLICE AAAHHG)",
     "ERROR- NO ONE DID IT, EGGRONA",
     "No you did it you big eggrona why did you even ask :madman:",
     "I don't know go ask gab, he holds the answer to everything",
@@ -145,7 +145,8 @@ var whodidit = [
     "Vert",
     "Shaz",
     "FabledFish",
-    "Club Penguin Online"
+    "Club Penguin Online",
+    "Club Penguin Universe"
 ];
 
 client.on("message", function(message) {
