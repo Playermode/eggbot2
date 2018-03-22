@@ -203,6 +203,7 @@ client.on("message", function(message) {
             .addField("!ahyes", "of course", true)
             .addField("!eggman", ":eggman:", true)
             .addField("!eggrona", ":eggronaman:", true) 
+            .addField("!info", "get some info on egg bot", true)
             .setColor(0x00FFFF)
         message.channel.sendEmbed(embed);
         break;
