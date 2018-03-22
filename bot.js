@@ -354,6 +354,20 @@ client.on("message", function(message) {
               .setImage("https://cdn.discordapp.com/attachments/343102240766296064/425001985738145812/eggtownlogo.png")                
           message.channel.sendEmbed(eggtowneggkip);
           break;
+    case "info":
+          var info = new Discord.RichEmbed()
+              .setTitle(":egg: **Egg Bot** :egg:")
+              .addField("- A bot made specifically for eggtown", " ￼ ")
+              .addField("- A highly modified version of bart bot", " ￼ ")
+              .addField("- IF you see egg bot in another server please inform @Playermode#8623", " ￼ ")   
+              .addField("- Updated Regularly", " ￼ ")
+              .addField("- Do !help for all the commands", " ￼ ") 
+              .addField("- Made by @Playermode#8623", " ￼ ")
+              .addField("Current Version: 1.1", " ￼ ")
+              .addField("**Please do not ask to add egg bot to your server as he is only meant for this server.**", " ￼ ")
+              .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939614239850517/eggman.png")                
+          message.channel.sendEmbed(info);
+          break; 
   }
 });
 
