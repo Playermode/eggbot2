@@ -139,7 +139,6 @@ var whodidit = [
     "Vert the egg",
     "The egg janitor",
     "The egg president",
-    "The spy in this server",
     "Codey",
     "Lunax and Skystone",
     "Vert",
