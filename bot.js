@@ -338,7 +338,7 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/330847736192827392/424997005861847040/image.jpg")
           message.channel.sendEmbed(partner3);
           break; 
-    case "everyone":
+    case "ever1":
       message.channel.sendMessage("@everyone")
       break;
     case "eggtownpartnership":
@@ -368,7 +368,10 @@ client.on("message", function(message) {
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939614239850517/eggman.png")                
           message.channel.sendEmbed(info);
-          break; 
+          break;
+    case "can":
+      message.channel.sendMessage("u dont")
+      break;
   }
 });
 
