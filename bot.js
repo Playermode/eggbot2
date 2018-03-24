@@ -301,7 +301,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-            .setDescription("If you want to get notifications for the poll channel then do -role pollping")
+            .setDescription("If you want to get notifications for the poll channel then do !pollsrole")
          message.channel.sendEmbed(otherinfo1);
          break;
     case "imageinfo":  
