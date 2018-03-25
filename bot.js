@@ -10,7 +10,7 @@ var fortunes = [
     "No you egg thats a horrible idea why did you even ask that in the first place eggling",
     "YES THATS THE BEST IDEA I HAVE HEARD IN MY LIFE",
     "The egg klan says yes so I say yes",
-    "Congrats you've proven that you are in fact an egg with that question https://vignette.wikia.nocookie.net/club-penguin-rewritten/images/f/fb/Sled_Racing_Clapping_%281%29.gif/revision/latest?cb=20170415231449 (my answer is no eggling if you couldnt tell)"
+    "Congrats you've proven that you are in fact an egg with that question  (my answer is no eggling if you couldnt tell) https://vignette.wikia.nocookie.net/club-penguin-rewritten/images/f/fb/Sled_Racing_Clapping_%281%29.gif/revision/latest?cb=20170415231449"
 ];  
 
 var WOD = [
