@@ -90,7 +90,7 @@ var job = [
     "Egg deputy",
     "Egg FBI",
     "Egg pizza maker",
-    "Anime police officer",
+    "Egg police officer",
     "Anime lover",
     "Egg president",
     "Egg lord",
@@ -100,7 +100,8 @@ var job = [
     "Egg accountant",
     "Egg judge",
     "Egg lawyer",
-    "Egg"
+    "Egg",
+    "Homeless egg"
 ];
 
 var whodidit = [
