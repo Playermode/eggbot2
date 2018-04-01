@@ -174,7 +174,11 @@ var aprilfools = [
     "https://www.youtube.com/watch?v=2yPX07vho0w",
     "doornax",
     "eggs deeee",
-    "Eggtown is shutting down on April 1st 2022."
+    "Eggtown is shutting down on April 1st 2022.",
+    "Maybe",
+    "I think Inspector Gadget would say **y e s**",
+    "I think Inspector Gadget would say **n o**",
+    "https://www.youtube.com/watch?v=LZ3mHEmyycw"
 ];
 
 client.on("message", function(message) {
@@ -393,9 +397,9 @@ client.on("message", function(message) {
               .addField("- Updated Regularly", " ￼ ")
               .addField("- Do !help for all the commands", " ￼ ") 
               .addField("- Made by @Playermode#8623", " ￼ ")
-              .addField("Current Version: 1.3", " ￼ ")
+              .addField("Current Version: -66.6", " ￼ ")
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
-              .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424939614239850517/eggman.png")                
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430045325923844096/eggronaman.png)                
           message.channel.sendEmbed(info);
           break;
     case "can":
@@ -412,7 +416,12 @@ client.on("message", function(message) {
           var egg435 = new Discord.RichEmbed()
              .setDescription("Pffft Who needs !8ball use the new command that was made by the mayor of eggotown himself!  It's !question.  Now go ahead an use the new command!  (the command may or may not have had water spilt on it)")
          message.channel.sendEmbed(egg435);
-         break;          
+         break;
+    case "reversecard":
+          var card = new Discord.RichEmbed()
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430044723705675797/Reverse-Card.png")
+          message.channel.sendEmbed(egg435);
+          break;
   }
 });
 
