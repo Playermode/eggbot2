@@ -409,10 +409,10 @@ client.on("message", function(message) {
       message.channel.sendMessage("February. this year, I had an idea to create Eggtown with Eggbot because Playermodes Illegal Corner was shut down. It was originally planned to be exactly like the original corner, new roles and new text channels. However, after critical reception from Guyscience on how 29089453 roles isn't good we decided to change it to eggtown.  But then egg bot stabbed me :((((((")
       break;
     case "randomthing":
-         var egg435 = new Discord.RichEmbed()
+          var egg435 = new Discord.RichEmbed()
              .setDescription("Eggtown closes tomorrow at 11:61pm.")
-          message.channel.sendEmbed(egg435);
-      break;          
+         message.channel.sendEmbed(egg435);
+         break;          
   }
 });
 
