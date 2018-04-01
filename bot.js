@@ -420,7 +420,7 @@ client.on("message", function(message) {
     case "reversecard":
           var card = new Discord.RichEmbed()
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430044723705675797/Reverse-Card.png")
-          message.channel.sendEmbed(egg435);
+          message.channel.sendEmbed(card);
           break;
   }
 });
