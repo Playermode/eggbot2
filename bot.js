@@ -166,7 +166,15 @@ var aprilfools = [
     "consume your calcium",
     "HeWWO",
     "01011000 01000100 01000100 01000100 01000100 01000100",
-    "JOIN MY BASEBALL SERVER"
+    "JOIN MY BASEBALL SERVER",
+    "Stop dab and anime it 2018!!!!!!!!",
+    "XDDDDDDDDD",
+    "eggroni pizza",
+    "ripperoni",
+    "https://www.youtube.com/watch?v=2yPX07vho0w",
+    "doornax",
+    "eggs deeee",
+    "Eggtown is shutting down on April 1st 2022."
 ];
 
 client.on("message", function(message) {
@@ -322,7 +330,7 @@ client.on("message", function(message) {
         break;
     case "otherinfo":
          var otherinfo1 = new Discord.RichEmbed()
-            .setDescription("If you want to get notifications for the poll channel then do !pollsrole")
+            .setDescription("We regret to inform you that eggtown will be shutting down April First.  Unfortunately the egg master Eggmode decided it would be a good idea to spill water on the server so its only a matter of time the server short circuits and dies.  Now remember this is MoSt DeFiniTeLy nOt an AprIl f00ls jokE orchestrated by the c00gs.  Thank you for your time.")
          message.channel.sendEmbed(otherinfo1);
          break;
     case "imageinfo":  
@@ -393,6 +401,13 @@ client.on("message", function(message) {
     case "can":
       message.channel.sendMessage("u dont")
       break;
+    case "question":
+      if (args[1]) message.channel.sendMessage(aprilfools[Math.floor(Math.random() * aprilfools.length)])
+      else message.channel.sendMessage("Please ask an actual question. eggs deeeeeeeeeeeee");
+      break;
+    case "explaination":
+      message.channel.sendMessage("February. this year, I had an idea to create Eggtown with Eggbot because Playermodes Illegal Corner was shut down. It was originally planned to be exactly like the original corner, new roles and new text channels. However, after critical reception from Guyscience on how 29089453 roles isn't good we decided to change it to eggtown.  But then egg bot stabbed me :(((((("
+      break;                            
   }
 });
 
