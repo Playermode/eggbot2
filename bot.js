@@ -399,7 +399,7 @@ client.on("message", function(message) {
               .addField("- Made by @Playermode#8623", " ￼ ")
               .addField("Current Version: -66.6", " ￼ ")
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
-              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430045325923844096/eggronaman.png)                
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430045325923844096/eggronaman.png")                
           message.channel.sendEmbed(info);
           break;
     case "can":
