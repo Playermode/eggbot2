@@ -387,5 +387,5 @@ client.on('message', message => {
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+// THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
