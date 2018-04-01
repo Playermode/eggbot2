@@ -377,7 +377,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("!help");
+    client.user.setGame("subcribe to shazcp :weary:");
     console.log('I am ready!');
 });
 
