@@ -410,7 +410,7 @@ client.on("message", function(message) {
       break;
     case "randomthing":
           var egg435 = new Discord.RichEmbed()
-             .setDescription("Eggtown closes tomorrow at 11:61pm.")
+             .setDescription("Pffft Who needs !8ball use the new command that was made by the mayor of eggotown himself!  It's !question.  Now go ahead an use the new command!  (the command may or may not have had water spilt on it)")
          message.channel.sendEmbed(egg435);
          break;          
   }
