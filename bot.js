@@ -149,6 +149,26 @@ var whodidit = [
     "Club Penguin Universe"
 ];
 
+var aprilfools = [
+    "Pengur When",
+    "XDDDDDDD",
+    "Vert is quite an egg",
+    "Gab is my favorite",
+    "Baby dont hurt me",
+    "Pengur Now",
+    "Lunax - Today at 9:54 PM BIG TIME RUSH OH OH OHHH OHHHHH MAKE It COUNT PLAY IT STRAIGHT DONT LOOK BACK DONT HESITATE WHEN U GO B I G T I M E WHAT U KNOW WHAT U FEEL NEVER QUIT AND MAKE IT REAL AND U ROLL BIG TIME OH OH OH HEY OH HEY OH LISTEN TO UR HEART NOWHEY OH HEY OH DONT U FEEL THE RUSH HEY OH HEY OH BETTER TAKE UR SHOT NOW OH OH OH OHH",
+    "is your childhood ruinedx2",
+    "s u c c  an Eggy",
+    "you sunk my eggship",
+    "somebody spoiled the egg carton",
+    "we're now changing this server to shrektown, all who appose will be destroyed",
+    "Has your life been ruined",
+    "consume your calcium",
+    "HeWWO",
+    "01011000 01000100 01000100 01000100 01000100 01000100",
+    "JOIN MY BASEBALL SERVER"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
 
