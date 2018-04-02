@@ -178,7 +178,12 @@ var aprilfools = [
     "Maybe",
     "I think Inspector Gadget would say **y e s**",
     "I think Inspector Gadget would say **n o**",
-    "https://www.youtube.com/watch?v=LZ3mHEmyycw"
+    "https://www.youtube.com/watch?v=LZ3mHEmyycw",
+    "you look like the guy from high school musical",
+    "you sorta look like shrek",
+    "you look like gab which means you're amazing which means yes",
+    "hah no",
+    "hah yes"
 ];
 
 client.on("message", function(message) {
@@ -237,6 +242,8 @@ client.on("message", function(message) {
             .addField("!eggman", ":eggman:", true)
             .addField("!eggrona", ":eggronaman:", true) 
             .addField("!info", "get some info on egg bot", true)
+            .addField("!reversecard", "Use the reverse card!", true)
+            .addField("!question", "Use the upgraded 8ball command.  (this was for april fools originally)", true)
             .setColor(0x00FFFF)
         message.channel.sendEmbed(embed);
         break;
@@ -397,9 +404,9 @@ client.on("message", function(message) {
               .addField("- Updated Regularly", " ￼ ")
               .addField("- Do !help for all the commands", " ￼ ") 
               .addField("- Made by @Playermode#8623", " ￼ ")
-              .addField("Current Version: -66.6", " ￼ ")
+              .addField("Current Version: 1.5", " ￼ ")
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
-              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430045325923844096/eggronaman.png")                
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430045331321782295/okegger.png")                
           message.channel.sendEmbed(info);
           break;
     case "can":
