@@ -277,7 +277,7 @@ client.on("message", function(message) {
         break;
     case "goodegg":
         var gegg = new Discord.RichEmbed()
-            .setImage("http://orig04.deviantart.net/535c/f/2011/095/4/1/backwards_walking_egg_by_genshihebi-d3da1ag.gif")
+            .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430404036160651284/backwards_walking_egg_by_genshihebi-d3da1ag.gif")
         message.channel.sendEmbed(gegg);
         break;
     case "egg":
