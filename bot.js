@@ -433,7 +433,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("subcribe to shazcp :weary:");
+    client.user.setGame("Eggtown !help");
     console.log('I am ready!');
 });
 
