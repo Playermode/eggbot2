@@ -421,7 +421,7 @@ client.on("message", function(message) {
       break;
     case "randomthing":
           var egg435 = new Discord.RichEmbed()
-             .setDescription("Oh looks like an anamoly occured.  It turns out the time "11:69" doesn't exist,  who knew right?  So this means eggtown isn't closing.  So yeah the hub of eggs isn't going anywhere for a while you egg haters :madman:")
+             .setDescription("Oh looks like an anamoly occured.  It turns out the time 11:69 doesn't exist,  who knew right?  So this means eggtown isn't closing.  So yeah the hub of eggs isn't going anywhere for a while you egg haters :madman:")
          message.channel.sendEmbed(egg435);
          break;
     case "reversecard":
