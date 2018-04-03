@@ -243,7 +243,7 @@ client.on("message", function(message) {
             .addField("!eggrona", ":eggronaman:", true) 
             .addField("!info", "get some info on egg bot", true)
             .addField("!reversecard", "Use the reverse card!", true)
-            .addField("!question", "Use the upgraded 8ball command.  (this was for april fools originally)", true)
+            .addField("!question", "Use the upgraded 8ball command.  This was for april fools originally", true)      
             .setColor(0x00FFFF)
         message.channel.sendEmbed(embed);
         break;
