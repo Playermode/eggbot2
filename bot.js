@@ -301,7 +301,7 @@ client.on("message", function(message) {
         message.channel.sendEmbed(xd);
         break;
     case "marie":
-      message.channel.sendMessage("youtube.com/Pengkip.")
+      message.channel.sendMessage("https://www.youtube.com/c/pengkip")
     break;
     case "whodidit":
     if (args[1]) message.channel.sendMessage(whodidit[Math.floor(Math.random() * whodidit.length)])
@@ -404,7 +404,7 @@ client.on("message", function(message) {
               .addField("- Updated Regularly", " ￼ ")
               .addField("- Do !help for all the commands", " ￼ ") 
               .addField("- Made by @Playermode#8623", " ￼ ")
-              .addField("Current Version: 1.5", " ￼ ")
+              .addField("Current Version: 1.6", " ￼ ")
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430045331321782295/okegger.png")                
           message.channel.sendEmbed(info);
