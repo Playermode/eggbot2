@@ -222,7 +222,7 @@ client.on("message", function(message) {
             .setImage("https://content.invisioncic.com/r229491/monthly_2016_09/screenshot.gif.1db64042aa10be728f13af5027f72f88.gif", true)
             .addField("!8ball", "Role The Dice or Ball of Chance!", true)
             .addField("!whatsupdude!", "Say whats up dude to your favorite egg", true)
-            .addField("!wordoftheday", "ask egg bot about the world of the day! Heres how you type it !wordoftheday text.  You must typed something after !wordoftheday.", true)
+            .addField("!wordoftheday", "ask egg bot about the word of the day! Heres how you type it !wordoftheday text.  You must typed something after !wordoftheday.", true)
             .addField("!nou", "No u", true)
             .addField("!badegg", "Show off what happens to bad eggs", true)
             .addField("!lundab", "<o/", true)
