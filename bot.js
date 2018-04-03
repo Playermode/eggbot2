@@ -282,7 +282,7 @@ client.on("message", function(message) {
         break;
     case "egg":
         var egg = new Discord.RichEmbed()
-            .setImage("http://www.freepngimg.com/thumb/egg/13-egg-png-image-thumb.png")
+            .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430773574526304266/realegg.png")
         message.channel.sendEmbed(egg);
         break;
     case "eggrating":
