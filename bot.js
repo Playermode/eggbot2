@@ -327,7 +327,7 @@ client.on("message", function(message) {
     else message.channel.sendMessage("Please have some text typed after !eggrating. Ex. !eggrating im a big big egg");
     break;
     case "eggjobs":
-    if (args[1]) message.channel.sendMessage(job[Math.floor(Math.random() * job.length)])
+    if (args[0]) message.channel.sendMessage(job[Math.floor(Math.random() * job.length)])
     else message.channel.sendMessage("Please have some text typed after !eggjob. Ex. !eggjob eggtown mayor please assign me a job!");
     break;
     case "xd":
