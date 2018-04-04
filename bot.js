@@ -210,6 +210,52 @@ var aprilfools = [
     "Ask me a question? Hah I'm not the one on trial."
 ];
 
+var when = [
+    "Probs Tomorrow",
+    "Yesterday :madman:",
+    "In one hour",
+    "In two hours",
+    "In three hours",
+    "In four hours",
+    "In five hours",
+    "In six hours",
+    "In seven hours",
+    "In eight hours",
+    "In nine hours",
+    "In ten hours",
+    "In eleven hours",
+    "In twelve hours",
+    "In thirteen hours",
+    "In fourteen hours",
+    "In sixteen hours",
+    "In eighteen hours",
+    "In nineteen hours",
+    "In twenty hours",
+    "In twenty one hours",
+    "In twenty two hours",
+    "In twenty three hours",
+    "In twenty four hours",
+    "When pengur releases",
+    "At 11:69pm",
+    "At 11:61pm",
+    "At 4:01am",
+    "In one day",
+    "In two days",
+    "In three days",
+    "In four days",
+    "In five days",
+    "In six days",
+    "In seven days",
+    "In eight days",
+    "In nine days",
+    "In ten days",
+    "When Eggbot Version 90 comes out XDDDDD",
+    "When Pengkip hates Splatoon",
+    "Right now",
+    "When Lunax makes Club Penguin Rewritten the video three",
+    "When this discord gets -100 Members"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
 
@@ -221,6 +267,10 @@ client.on("message", function(message) {
     case "8ball":
       if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)])
       else message.channel.sendMessage("Can't Read that");
+      break;
+    case "when":
+      if (args[0]) message.channel.sendMessage(when[Math.floor(Math.random() * when.length)])
+      else message.channel.sendMessage("Please actually ask for something");
       break;
     case "doit":
         var doit = new Discord.RichEmbed()
@@ -386,7 +436,7 @@ client.on("message", function(message) {
               .addField("- Do !help for all the commands", " ￼ ") 
               .addField("- Made by @Playermode#8623", " ￼ ")
               .addField("- Website: https://theofficalpm.wixsite.com/eggbot", " ￼ ")
-              .addField("Current Version: 2.0", " ￼ ")
+              .addField("Current Version: 2.1", " ￼ ")
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430814711622270978/66a8c63b867d4b58895f9048df4d0a0e.png")                
           message.channel.sendEmbed(info);
