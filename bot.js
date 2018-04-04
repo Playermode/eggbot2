@@ -228,7 +228,7 @@ client.on("message", function(message) {
         var embed = new Discord.RichEmbed()
             .setTitle("**Click here to get all the commands**")
             .setDescription("https://theofficalpm.wixsite.com/eggbot/commands")
-            .setImage("https://static.wixstatic.com/media/a6ed94_0b3837ff7cb844cb86586787fda28dea~mv2.gif")
+            .setImage("https://cdn.discordapp.com/attachments/430414146924969984/430911625088991242/help.gif")
         message.channel.sendEmbed(embed);
         break;
     case "nou":
