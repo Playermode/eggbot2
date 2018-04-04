@@ -382,6 +382,7 @@ client.on("message", function(message) {
               .addField("- Updated Regularly", " ￼ ")
               .addField("- Do !help for all the commands", " ￼ ") 
               .addField("- Made by @Playermode#8623", " ￼ ")
+              .addField("- Website: https://theofficalpm.wixsite.com/eggbot", " ￼ ")
               .addField("Current Version: 2.0", " ￼ ")
               .addField("**Please do not ask to add egg bot to your server as they are only meant for this server.**", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430814711622270978/66a8c63b867d4b58895f9048df4d0a0e.png")                
@@ -416,7 +417,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Version 2 https://theofficalpm.wixsite.com/eggbot");
+    client.user.setGame("Version 2 !help");
     console.log('I am ready!');
 });
 
