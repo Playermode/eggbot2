@@ -211,8 +211,8 @@ var aprilfools = [
 ];
 
 var dab = [
-    .setImage("https://cdn.discordapp.com/attachments/391980593115693056/411678723998482434/Lunax.jpg")
-    .setImage("https://cdn.discordapp.com/attachments/411658657802092545/411991839453872132/enlarge.png")
+    "https://cdn.discordapp.com/attachments/391980593115693056/411678723998482434/Lunax.jpg"
+    "https://cdn.discordapp.com/attachments/411658657802092545/411991839453872132/enlarge.png"
 ];
 
 client.on("message", function(message) {
@@ -228,7 +228,7 @@ client.on("message", function(message) {
       else message.channel.sendMessage("Can't Read that");
       break;
      case "dabtest":
-       if (args[1]) message.channel.sendMessage(dab[Math.floor(Math.random() * fortunes.length)])
+       if (args[0]) message.channel.sendMessage(dab[Math.floor(Math.random() * fortunes.length)])
        else message.channel.sendMessage("have something after !dabtest"); 
        break;
     case "doit":
