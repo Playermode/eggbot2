@@ -413,6 +413,9 @@ client.on("message", function(message) {
               .setImage("http://c8.alamy.com/comp/CWBJMN/copy-of-typical-catholic-image-of-jesus-christ-from-slovakia-by-painter-CWBJMN.jpg")
           message.channel.sendEmbed(jesus);
           break;
+    case "noanime":
+      message.channel.sendMessage("You are an itelligent person, you cleary watch Rick and Morty and don't watch anime.")
+      break;
   }
 });
 
