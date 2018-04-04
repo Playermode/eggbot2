@@ -253,7 +253,27 @@ var when = [
     "When Pengkip hates Splatoon",
     "Right now",
     "When Lunax makes Club Penguin Rewritten the video three",
-    "When this discord gets -100 Members"
+    "When this discord gets -100 Members",
+    "In 1 year",
+    "In 2 years",
+    "In 3 years",
+    "In 4 years",
+    "In 5 years",
+    "In 6 years",
+    "In 7 years",
+    "In 8 years",
+    "In 9 years",
+    "In 10 years",
+    "In 50 years",
+    "In 20 years",
+    "In 10 years",
+    "In 100 years",
+    "In 80 years",
+    "In 71 years",
+    "In 34 years",
+    "In 40 years",
+    "In 30 years",
+    "In 900 years"
 ];
 
 client.on("message", function(message) {
