@@ -69,6 +69,7 @@ var WOD = [
     "Todays word of the day is FabledFish!",
     "Todays word of the day is Baseball",
     "Todays word of the day is Baseball Discord"
+    "Todays word of the day is TypicalLlamaJoey"
 ];
 
 var eggrating = [
@@ -103,7 +104,8 @@ var job = [
     "Egg judge",
     "Egg lawyer",
     "Egg",
-    "Homeless egg"
+    "Homeless egg",
+    "Shrek"
 ];
 
 var whodidit = [
@@ -160,7 +162,8 @@ var whodidit = [
     "Flame",
     "LiamCPR",
     "SC1 Sam",
-    "Shaz"
+    "Shaz",
+    "TypicalLlamaJoey"
 ];
 
 var aprilfools = [
