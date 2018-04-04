@@ -269,7 +269,7 @@ client.on("message", function(message) {
       else message.channel.sendMessage("Can't Read that");
       break;
     case "when":
-      if (args[0]) message.channel.sendMessage(when[Math.floor(Math.random() * when.length)])
+      if (args[1]) message.channel.sendMessage(when[Math.floor(Math.random() * when.length)])
       else message.channel.sendMessage("Please actually ask for something");
       break;
     case "doit":
