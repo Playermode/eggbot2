@@ -411,7 +411,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Eggtown !help");
+    client.user.setGame("Version 2 https://theofficalpm.wixsite.com/eggbot");
     console.log('I am ready!');
 });
 
