@@ -148,7 +148,19 @@ var whodidit = [
     "Shaz",
     "FabledFish",
     "Club Penguin Online",
-    "Club Penguin Universe"
+    "Club Penguin Universe",
+    "Drivr3Joesphs Baseball Discord",
+    "Drivr3Joesph",
+    "Eggmode",
+    "Eggneh",
+    "Ouattack05",
+    "JosetheJbot",
+    "PlanetPuffle",
+    "DrewCakes",
+    "Flame",
+    "LiamCPR",
+    "SC1 Sam",
+    "Shaz"
 ];
 
 var aprilfools = [
@@ -185,7 +197,14 @@ var aprilfools = [
     "you sorta look like shrek",
     "you look like gab which means you're amazing which means yes",
     "hah no",
-    "hah yes"
+    "hah yes",
+    "Yeah I guess",
+    "NO THAT IS THE MOST STUPID THING IVE EVER HEARD",
+    "I like eggs tbh",
+    "Gab is great amiright?",
+    "What is an egg?",
+    "I would rather fly to Jupiter than answer that question",
+    "Ask me a question? Hah I'm not the one on trial."
 ];
 
 client.on("message", function(message) {
@@ -196,56 +215,20 @@ client.on("message", function(message) {
   var args = message.content.substring(PREFIX.length).split(" ");
 
   switch (args[0].toLocaleLowerCase()) {
-    case "eggbotisanegg":
-      message.channel.sendMessage("nou")
-      break;
     case "8ball":
       if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)])
       else message.channel.sendMessage("Can't Read that");
-      break;
-    case "hahahaahhahahahaha1323":
-      message.channel.sendMessage("Whats up dudes! @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone @everyone")
       break;
     case "doit":
         var doit = new Discord.RichEmbed()
             .setImage("https://media2.giphy.com/media/3o84sw9CmwYpAnRRni/giphy.gif")
       message.channel.sendEmbed(doit);
       break;
-    case "whatsupdude!":
-        var dude = new Discord.RichEmbed()
-            .setImage("http://farm3.staticflickr.com/2841/11673697056_ee50d478db.jpg")
-      message.channel.sendEmbed(dude);
-      break;
     case "help":
         var embed = new Discord.RichEmbed()
-            .setTitle("Commands")
-            .setImage("https://content.invisioncic.com/r229491/monthly_2016_09/screenshot.gif.1db64042aa10be728f13af5027f72f88.gif", true)
-            .addField("!8ball", "Role The Dice or Ball of Chance!", true)
-            .addField("!whatsupdude!", "Say whats up dude to your favorite egg", true)
-            .addField("!wordoftheday", "ask egg bot about the word of the day! Heres how you type it !wordoftheday text.  You must typed something after !wordoftheday.", true)
-            .addField("!nou", "No u", true)
-            .addField("!badegg", "Show off what happens to bad eggs", true)
-            .addField("!lundab", "<o/", true)
-            .addField("!dab", "<o/", true)
-            .addField("!egg", "what the command says", true)
-            .addField("!goodegg", "Display a good egg", true)
-            .addField("!oh", "ok", true)
-            .addField("!eggrating", "See what Egg bot rates your egg level!", true)
-            .addField("!eggjobs", "see what job you have in eggtown! :madman:", true)
-            .addField("!xd", "ecks dee", true)
-            .addField("!marie", "A certain persons favorite thing", true)
-            .addField("!whodidit", "Ever wonder who did something? Ask egg bot then!", true)
-            .addField("!thonk", "idk anymore", true)
-            .addField("!lookatthesetwocharacters", "look at those two characters", true)
-            .addField("!history", "learn the history about eggbot", true)
-            .addField("!helicopter", "do what disney did and learn the way of the star wars helicopter!", true)
-            .addField("!gabstory", "hear a gab story", true)
-            .addField("!ahyes", "of course", true)
-            .addField("!eggman", ":eggman:", true)
-            .addField("!eggrona", ":eggronaman:", true) 
-            .addField("!info", "get some info on egg bot", true)
-            .addField("!reversecard", "Use the reverse card!", true)   
-            .setColor(0x00FFFF)
+            .setTitle("**Click here to get all the commands**")
+            .setDescription("https://theofficalpm.wixsite.com/eggbot/commands")
+            .setImage("https://static.wixstatic.com/media/a6ed94_0b3837ff7cb844cb86586787fda28dea~mv2.gif")
         message.channel.sendEmbed(embed);
         break;
     case "nou":
@@ -313,12 +296,6 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/411658657802092545/416691515528839169/enlarge.png")
             .addField("oh", "ok")
         message.channel.sendEmbed(thonk);
-        break;
-    case "lookatthesetwocharacters":
-        var look = new Discord.RichEmbed()
-            .setImage("https://cdn.discordapp.com/attachments/411658657802092545/416759958210871298/image.jpg")
-            .addField("Look", "at these 2 character they’are the interesting part of this command")
-        message.channel.sendEmbed(look);
         break;
     case "history":
         var history = new Discord.RichEmbed()
