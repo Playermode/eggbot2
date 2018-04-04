@@ -211,8 +211,8 @@ var aprilfools = [
 ];
 
 var dab = [
-    "https://cdn.discordapp.com/attachments/391980593115693056/411678723998482434/Lunax.jpg"
-    "https://cdn.discordapp.com/attachments/411658657802092545/411991839453872132/enlarge.png"
+    .setImage("https://cdn.discordapp.com/attachments/391980593115693056/411678723998482434/Lunax.jpg"),
+    .setImage("https://cdn.discordapp.com/attachments/411658657802092545/411991839453872132/enlarge.png")
 ];
 
 client.on("message", function(message) {
