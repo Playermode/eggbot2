@@ -210,11 +210,6 @@ var aprilfools = [
     "Ask me a question? Hah I'm not the one on trial."
 ];
 
-var dab = [
-    "https://cdn.discordapp.com/attachments/391980593115693056/411678723998482434/Lunax.jpg",
-    "https://cdn.discordapp.com/attachments/411658657802092545/411991839453872132/enlarge.png"
-];
-
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
 
@@ -227,10 +222,6 @@ client.on("message", function(message) {
       if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)])
       else message.channel.sendMessage("Can't Read that");
       break;
-     case "dabtest":
-       if (args[0]) message.channel.sendMessage(dab[Math.floor(Math.random() * fortunes.length)])
-       else message.channel.sendMessage("have something after !dabtest"); 
-       break;
     case "doit":
         var doit = new Discord.RichEmbed()
             .setImage("https://media2.giphy.com/media/3o84sw9CmwYpAnRRni/giphy.gif")
