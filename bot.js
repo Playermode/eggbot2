@@ -489,6 +489,11 @@ client.on("message", function(message) {
     case "noanime":
       message.channel.sendMessage("You are an itelligent person, you cleary watch Rick and Morty and don't watch anime.")
       break;
+    case "okegger":
+         var okegger = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/386610342077267968/431199869336682516/okegger.png")
+         message.channel.sendEmbed(okegger);
+         break;
   }
 });
 
