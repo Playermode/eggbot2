@@ -407,6 +407,11 @@ client.on("message", function(message) {
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430044723705675797/Reverse-Card.png")
           message.channel.sendEmbed(card);
           break;
+    case "jesus":
+          var jesus = new Discord.RichEmbed()
+              .setImage("http://c8.alamy.com/comp/CWBJMN/copy-of-typical-catholic-image-of-jesus-christ-from-slovakia-by-painter-CWBJMN.jpg")
+          message.channel.sendEmbed(jesus);
+          break;
   }
 });
 
