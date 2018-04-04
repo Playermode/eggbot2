@@ -68,7 +68,7 @@ var WOD = [
     "Todays word of the day is Vert!",
     "Todays word of the day is FabledFish!",
     "Todays word of the day is Baseball",
-    "Todays word of the day is Baseball Discord"
+    "Todays word of the day is Baseball Discord",
     "Todays word of the day is TypicalLlamaJoey"
 ];
 
