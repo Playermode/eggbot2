@@ -14,7 +14,7 @@ var fortunes = [
 ];  
 
 var WOD = [
-    "Todays word of the day is Eggtown!"
+    "Todays word of the day is Eggtown!",
     "Todays word of the day is Eggs",
     "Todays word of the day is Essay!",
     "Todays word of the day is Homework!",
@@ -524,7 +524,6 @@ client.on("message", function(message) {
 
 client.on('ready', function() { 
     client.user.setGame("Eggtown Rewritten");
-    client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
 
