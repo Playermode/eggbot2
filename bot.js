@@ -557,12 +557,6 @@ client.on('message', message => {
     	message.reply('Hello!') {
   	}    
 });
-    
-client.on('message', message => {
-    if (message.content === "Hi") {
-    	message.reply('Hello!') {
-  	}    
-});    
-
+      
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
