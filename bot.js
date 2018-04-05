@@ -535,7 +535,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'youre an egg') {
+    if (message.content === "you're an egg") {
     	message.reply('nou');
   	}
 });
