@@ -556,8 +556,8 @@ switch (args[0].toLocaleLowerCase()) {
 client.on('message', message => {
     if (message.content === "hi") {
     	message.reply('Hello!');
-  }}    
-});
+    }    
+}});
       
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
