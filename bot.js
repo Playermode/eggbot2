@@ -14,7 +14,7 @@ var fortunes = [
 ];  
 
 var WOD = [
-    "Todays word of the day is Eggtown!"
+    "Todays word of the day is Eggtown!",
     "Todays word of the day is Eggs",
     "Todays word of the day is Essay!",
     "Todays word of the day is Homework!",
