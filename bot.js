@@ -288,6 +288,14 @@ var when = [
     "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png"
 ];
 
+var guysciencedms = [
+    "t  r  y    s  p  i  n  n  i  n  g".
+    "oof ouch owie my ***i  m  m  e  r  s  i  o  n***",
+    "A giant lightsaber helicopter army and the emperor riding one and saying “unlimited power” while striking people  with lightning in the process",
+    "i guess our next weapon will be the SUPER ULTRA MEGA NUKE, made by general guyscience in under 3 minutes, kills everything in a 1000 mile radius, no exceptions",
+    "oh idk what an imbed is nor do i care (guyscience spelt embed wrong :((((("
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
 
@@ -303,6 +311,10 @@ client.on("message", function(message) {
     case "when":
       if (args[1]) message.channel.sendMessage(when[Math.floor(Math.random() * when.length)])
       else message.channel.sendMessage("Please actually ask for something");
+      break;
+    case "thegreatdms":
+      if (args[0]) message.channel.sendMessage(guysciencedms[Math.floor(Math.random() * guysciencedms.length)])
+      else message.channel.sendMessage("no xDDDDDD");
       break;
     case "doit":
         var doit = new Discord.RichEmbed()
