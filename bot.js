@@ -164,7 +164,17 @@ var whodidit = [
     "SC1 Sam",
     "Shaz",
     "TypicalLlamaJoey",
-    "PufflePlanet rawr xD"
+    "PufflePlanet rawr xD",
+    "Storm",
+    "club super eggtown pang flip rewritten vintage universe evolved remade dab perfected penguin",
+    "Flippr",
+    "Club Penguin Rewritten",
+    "Club Penguin Rewritten the video",
+    "Illustrious Lame",
+    "The person who first said rawr xD",
+    "Egglando",
+    "Club Penguin Adidas",
+    "Club Penguin De-Evolved"
 ];
 
 var aprilfools = [
@@ -274,7 +284,8 @@ var when = [
     "In 34 years",
     "In 40 years",
     "In 30 years",
-    "In 900 years"
+    "In 900 years",
+    "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png"
 ];
 
 client.on("message", function(message) {
