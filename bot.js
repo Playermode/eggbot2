@@ -511,7 +511,7 @@ client.on("message", function(message) {
           message.channel.sendEmbed(jesus);
           break;
     case "noanime":
-      message.channel.sendMessage("You are an itelligent person, you cleary watch Rick and Morty and don't watch anime.")
+      message.channel.sendMessage("You are an intelligent person, you cleary watch Rick and Morty and don't watch anime.")
       break;
     case "okegger":
          var okegger = new Discord.RichEmbed()
