@@ -163,7 +163,8 @@ var whodidit = [
     "LiamCPR",
     "SC1 Sam",
     "Shaz",
-    "TypicalLlamaJoey"
+    "TypicalLlamaJoey",
+    "PufflePlanet rawr xD"
 ];
 
 var aprilfools = [
