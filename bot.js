@@ -563,6 +563,18 @@ client.on('message', message => {
     	message.reply("Get better grammar");
     }    
 });
+
+client.on('message', message => {
+    if (message.content === "General Kenobi") {
+    	message.reply("You're a **bold** one");
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "oh no") {
+    	message.reply("oh yes");
+    }    
+});
      
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
