@@ -331,7 +331,7 @@ client.on("message", function(message) {
         break;
     case "nou":
         var nou = new Discord.RichEmbed()
-            .setImage("http://www.vasilealecsandrifocsani.ro/images/nou.png")
+            .setImage("https://cdn.discordapp.com/attachments/430414146924969984/431601099535810581/J7sAzzC.png")
         message.channel.sendEmbed(nou);
         break;
     case "wordoftheday":
