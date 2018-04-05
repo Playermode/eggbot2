@@ -534,5 +534,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'youre an egg') {
+    	message.reply('nou');
+  	}
+});
+
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
