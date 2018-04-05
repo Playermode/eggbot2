@@ -554,7 +554,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === "hi") {
-    	message.reply('Hello!');
+    	message.reply('Hello there');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "your an egg") {
+    	message.reply('Get better grammar');
     }    
 });
       
