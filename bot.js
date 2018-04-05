@@ -522,7 +522,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Version 2 !help");
+    client.user.setGame("Listening to Frank Sinatra");
     console.log('I am ready!');
 });
 
