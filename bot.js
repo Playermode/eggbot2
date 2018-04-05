@@ -560,9 +560,9 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === "your an egg") {
-    	message.reply('Get better grammar');
+    	message.reply("Get better grammar");
     }    
 });
-      
+     
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
