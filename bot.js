@@ -546,5 +546,23 @@ client.on('message', message => {
   	}    
 });
 
+client.on('message', message => {
+    if (message.content === "im going to find a new way to bypass this") {
+    	message.reply('you cant :madman:');
+  	}    
+});
+
+client.on('message', message => {
+    if (message.content === "hi") {
+    	message.reply('Hello!') {
+  	}    
+});
+    
+client.on('message', message => {
+    if (message.content === "Hi") {
+    	message.reply('Hello!') {
+  	}    
+});    
+
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
