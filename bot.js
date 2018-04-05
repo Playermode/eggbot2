@@ -552,6 +552,7 @@ client.on('message', message => {
   	}    
 });
 
+switch (args[0].toLocaleLowerCase()) {
 client.on('message', message => {
     if (message.content === "hi") {
     	message.reply('Hello!');
