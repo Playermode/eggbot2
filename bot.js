@@ -524,7 +524,7 @@ client.on("message", function(message) {
 
 client.on('ready', function() { 
     client.user.setGame("Eggtown Rewritten");
-    client.user.setUsername("Egg B00t");
+    client.user.setUsername("Pengkip");
     console.log('I am ready!');
 });
 
