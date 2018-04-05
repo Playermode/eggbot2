@@ -289,7 +289,7 @@ var when = [
 ];
 
 var guysciencedms = [
-    "t  r  y    s  p  i  n  n  i  n  g".
+    "t  r  y    s  p  i  n  n  i  n  g",
     "oof ouch owie my ***i  m  m  e  r  s  i  o  n***",
     "A giant lightsaber helicopter army and the emperor riding one and saying “unlimited power” while striking people  with lightning in the process",
     "i guess our next weapon will be the SUPER ULTRA MEGA NUKE, made by general guyscience in under 3 minutes, kills everything in a 1000 mile radius, no exceptions",
