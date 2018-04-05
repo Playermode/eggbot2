@@ -313,7 +313,7 @@ client.on("message", function(message) {
       else message.channel.sendMessage("Please actually ask for something");
       break;
     case "thegreatdms":
-      if (args[1]) message.channel.sendMessage(guysciencedms[Math.floor(Math.random() * guysciencedms.length)])
+      if (args[0]) message.channel.sendMessage(guysciencedms[Math.floor(Math.random() * guysciencedms.length)])
       else message.channel.sendMessage("no xDDDDDD");
       break;
     case "doit":
