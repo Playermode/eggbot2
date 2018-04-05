@@ -571,6 +571,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === "general kenobi") {
+    	message.reply("You're a **bold** one");
+    }    
+});
+
+client.on('message', message => {
     if (message.content === "oh no") {
     	message.reply("oh yes");
     }    
