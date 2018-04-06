@@ -523,7 +523,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("!help");
+    client.user.setGame("BrantSteele Hunger Games simulator");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
