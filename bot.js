@@ -335,7 +335,7 @@ client.on("message", function(message) {
         message.channel.sendEmbed(nou);
         break;
     case "wordoftheday":
-    if (args[1]) message.channel.sendMessage(WOD[Math.floor(Math.random() * WOD.length)])
+    if (args[0]) message.channel.sendMessage(WOD[Math.floor(Math.random() * WOD.length)])
     else message.channel.sendMessage("Please have some text typed after !wordoftheday. Ex. !wordoftheday nou");
     break;
     case "badegg":
