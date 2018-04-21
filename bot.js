@@ -587,6 +587,12 @@ client.on('message', message => {
     	message.reply("```gab is great amiright?```");
     }    
 });
+
+client.on('message', message => {
+    if (message.content === "Gab) {
+    	message.reply("```gab is great amiright?```");
+    }    
+});
      
 // THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
