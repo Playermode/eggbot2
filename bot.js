@@ -523,7 +523,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Listening to Frank Sinatra");
+    client.user.setGame("The Hot Cheetos Challenge");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
