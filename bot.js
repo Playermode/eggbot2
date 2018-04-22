@@ -645,5 +645,23 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "eggbot is an egg") {
+    	message.reply("but you're a bigger :egg:");
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "EggBot is an egg") {
+    	message.reply("but you're a bigger :egg:");
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "Eggbot is a terrible bot") {
+    	message.reply("meanie :disapointed:");
+    }    
+});
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
