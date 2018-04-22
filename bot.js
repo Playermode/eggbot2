@@ -627,5 +627,11 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "@Egg Bot#8076 you're an egg") {
+    	message.reply("but you're a bigger :egg:");
+    }    
+});
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
