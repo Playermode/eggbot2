@@ -594,5 +594,23 @@ client.on('message', message => {
     }    
 });
 
-// THIS BOT IS ONLY FOR EGGTOWN
+client.on('message', message => {
+    if (message.content === "oh") {
+    	message.reply("ok");
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "ah yes") {
+    	message.reply("of course");
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "ah") {
+    	message.reply("yes of course");
+    }    
+});
+
+//THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
