@@ -531,6 +531,7 @@ client.on("message", function(message) {
               .addField("```- 7. 7. Only use bot commands in #bot-commands, #mature, and #memes.  However eggbot commands are allowed in any channel```", " ￼ ")
               .addField("```- 8. Only use commands such as !slut in #mature```", " ￼ ")
               .addField("```- 9. Memes can contain swearing, but you can not swear in #memes```", " ￼ ")
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430404036160651284/backwards_walking_egg_by_genshihebi-d3da1ag.gif")
           message.channel.sendEmbed(rulesegg);
           break;          
   }
