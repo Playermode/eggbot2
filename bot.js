@@ -527,7 +527,7 @@ client.on("message", function(message) {
               .addField("```- 3. Do not harass anyone at all```", " ￼ ")   
               .addField("```- 4. Do not ping any staff for no reason.```", " ￼ ")
               .addField("```- 5. If you can not handle the egg joke please leave```", " ￼ ") 
-              .addField("```- 6. No bad eggs :madman:```", " ￼ ")
+              .addField("```- 6. No bad eggs :eyes:```", " ￼ ")
               .addField("```- 7. 7. Only use bot commands in #bot-commands, #mature, and #memes.  However eggbot commands are allowed in any channel```", " ￼ ")
               .addField("```- 8. Only use commands such as !slut in #mature```", " ￼ ")
               .addField("```- 9. Memes can contain swearing, but you can not swear in #memes```", " ￼ ")
