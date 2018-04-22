@@ -639,5 +639,11 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "Eggbot *i*s an egg") {
+    	message.reply("but you're a bigger :egg:");
+    }    
+});
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
