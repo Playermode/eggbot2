@@ -628,7 +628,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === "@Egg Bot#8076 you're an egg") {
+    if (message.content === "@Egg Bot you're an egg") {
     	message.reply("but you're a bigger :egg:");
     }    
 });
