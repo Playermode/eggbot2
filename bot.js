@@ -659,7 +659,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === "Eggbot is a terrible bot") {
-    	message.reply("meanie :disapointed:");
+    	message.reply("meanie :disappointed:");
     }    
 });
 
