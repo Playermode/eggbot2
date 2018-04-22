@@ -519,6 +519,20 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/386610342077267968/431199869336682516/okegger.png")
          message.channel.sendEmbed(okegger);
          break;
+    case "rulesegger":
+          var rulesegg = new Discord.RichEmbed()
+              .setTitle(":egg: **Rules Of Eggtown** :egg:")
+              .addField("```- 1. No swearing```", " ￼ ")
+              .addField("```- 2. Don't Disrespect Others", " ￼ ")
+              .addField("```- 3. Do not harass anyone at all", " ￼ ")   
+              .addField("```- 4. Do not ping any staff for no reason.", " ￼ ")
+              .addField("```- 5. If you can not handle the egg joke please leave", " ￼ ") 
+              .addField("```- 6. No bad eggs :madman:", " ￼ ")
+              .addField("```- 7. 7. Only use bot commands in #bot-commands, #mature, and #memes.  However eggbot commands are allowed in any channel", " ￼ ")
+              .addField("```- 8. Only use commands such as !slut in #mature", " ￼ ")
+              .addField("```- 9. Memes can contain swearing, but you can not swear in #memes```", " ￼ ")
+          message.channel.sendEmbed(rulesegg);
+          break;          
   }
 });
 
