@@ -498,7 +498,7 @@ client.on("message", function(message) {
       break;
     case "randomthing":
           var egg435 = new Discord.RichEmbed()
-             .setDescription("Welcome to the eggtown elections.  Today you can vote for **anyone** to be the owner xdddddddd. (winner will be owner for a single day)  (this is going to backfire probably :disappointed) ")
+             .setDescription("Welcome to the eggtown elections.  Today you can vote for **anyone** to be the owner xdddddddd. (winner will be owner for a single day)  (this is going to backfire probably :disappointed:) ")
          message.channel.sendEmbed(egg435);
          break;
     case "reversecard":
