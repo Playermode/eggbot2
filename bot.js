@@ -533,6 +533,16 @@ client.on("message", function(message) {
               .addField("```- 9. Memes can contain swearing, but you can not swear in #memes```", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430404036160651284/backwards_walking_egg_by_genshihebi-d3da1ag.gif")
           message.channel.sendEmbed(rulesegg);
+          break;
+    case "gabstory2": 
+          var gabstory2 = new Discord.RichEmbed()
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/438488578390097921/image.png")
+          message.channel.sendEmbed(gabstory2);
+          break;
+    case "gabstory3": 
+          var gabstory3 = new Discord.RichEmbed()
+              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/439150572558483456/image.png")
+          message.channel.sendEmbed(gabstory3);
           break;          
   }
 });
