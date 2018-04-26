@@ -544,7 +544,7 @@ client.on("message", function(message) {
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/439150572558483456/image.png")
           message.channel.sendEmbed(gabstory3);
           break;    
-    case "gabstory3": 
+    case "gabstory4": 
           var gabstory4 = new Discord.RichEmbed()
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/439151207718715411/image.jpg")
           message.channel.sendEmbed(gabstory4);
