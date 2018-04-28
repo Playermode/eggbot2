@@ -627,9 +627,9 @@ client.on("message", function(message) {
       else message.channel.sendMessage("ponkerpunker is coming to town");
       break;   
     case "gabstory5": 
-          var gabstory4 = new Discord.RichEmbed()
+          var gabstory5 = new Discord.RichEmbed()
               .setImage("https://cdn.discordapp.com/attachments/430414146924969984/439838302510776330/5d5eeb5e47ef39c3de34b61e68e7ad20.png")
-          message.channel.sendEmbed(gabstory4);
+          message.channel.sendEmbed(gabstory5);
           break;          
   }
 });
