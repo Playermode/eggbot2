@@ -297,6 +297,78 @@ var guysciencedms = [
     "Go to sleep"
 ];
 
+var ponkerpunker = [
+    "https://twitter.com/BjarturG1/status/965694635136962561",
+    "https://twitter.com/BjarturG1/status/966058656650420224",
+    "https://twitter.com/BjarturG1/status/966421049503035392",
+    "https://twitter.com/BjarturG1/status/966783428007006208",
+    "https://twitter.com/BjarturG1/status/967145821400596480",
+    "https://twitter.com/BjarturG1/status/967508205654986754",
+    "https://twitter.com/BjarturG1/status/967870596142043136",
+    "https://twitter.com/BjarturG1/status/968232982778609665",
+    "https://twitter.com/BjarturG1/status/968595354533945350",
+    "https://twitter.com/BjarturG1/status/968957762343440385",
+    "https://twitter.com/BjarturG1/status/969320147616923648",
+    "https://twitter.com/BjarturG1/status/969682528935301121",
+    "https://twitter.com/BjarturG1/status/970044922614239232",
+    "https://twitter.com/BjarturG1/status/970407307573112833",
+    "https://twitter.com/BjarturG1/status/970769698949394433",
+    "https://twitter.com/BjarturG1/status/971132089906196519",
+    "https://twitter.com/BjarturG1/status/971494472818348032",
+    "https://twitter.com/BjarturG1/status/971856867558330368",
+    "https://twitter.com/BjarturG1/status/972219249476407296",
+    "https://twitter.com/BjarturG1/status/972581639141380096",
+    "https://twitter.com/BjarturG1/status/972944028818903040",
+    "https://twitter.com/BjarturG1/status/973311442794549250",
+    "https://twitter.com/BjarturG1/status/973673835533864960",
+    "https://twitter.com/BjarturG1/status/974036219112935424",
+    "https://twitter.com/BjarturG1/status/974398609696403459",
+    "https://twitter.com/BjarturG1/status/974760995963965440",
+    "https://twitter.com/BjarturG1/status/974767290175623168",
+    "https://twitter.com/BjarturG1/status/975123370122629120",
+    "https://twitter.com/BjarturG1/status/975485770751455232",
+    "https://twitter.com/BjarturG1/status/975848169861992449",
+    "https://twitter.com/BjarturG1/status/976210550622474241",
+    "https://twitter.com/BjarturG1/status/976572932657905664",
+    "https://twitter.com/BjarturG1/status/976935334721261570",
+    "https://twitter.com/BjarturG1/status/977297713099431937",
+    "https://twitter.com/BjarturG1/status/977660098746216448",
+    "https://twitter.com/BjarturG1/status/978022486133665794",
+    "https://twitter.com/BjarturG1/status/978388650366038017",
+    "https://twitter.com/BjarturG1/status/978751020061872128",
+    "https://twitter.com/BjarturG1/status/979113425564520449",
+    "https://twitter.com/BjarturG1/status/979475815455952896",
+    "https://twitter.com/BjarturG1/status/979839439823351814",
+    "https://twitter.com/BjarturG1/status/980201849876897795",
+    "https://twitter.com/BjarturG1/status/980564233996898304",
+    "https://twitter.com/BjarturG1/status/980926623255072769",
+    "https://twitter.com/BjarturG1/status/981289010495676416",
+    "https://twitter.com/BjarturG1/status/981651398638129153",
+    "https://twitter.com/BjarturG1/status/982013790006005764",
+    "https://twitter.com/BjarturG1/status/982376171345235968",
+    "https://twitter.com/BjarturG1/status/982738562364923905",
+    "https://twitter.com/BjarturG1/status/983100952432578560",
+    "https://twitter.com/BjarturG1/status/983463350360211462",
+    "https://twitter.com/BjarturG1/status/983825706558861312",
+    "https://twitter.com/BjarturG1/status/984188115983175681",
+    "https://twitter.com/BjarturG1/status/984550502951243776",
+    "https://twitter.com/BjarturG1/status/984912902300819456",
+    "https://twitter.com/BjarturG1/status/985275276933427200",
+    "https://twitter.com/BjarturG1/status/985637668292874241",
+    "https://twitter.com/BjarturG1/status/986000053662871554",
+    "https://twitter.com/BjarturG1/status/986362441218101249",
+    "https://twitter.com/BjarturG1/status/986724828722941952",
+    "https://twitter.com/BjarturG1/status/987087219197329409",
+    "https://twitter.com/BjarturG1/status/987449587903365122",
+    "https://twitter.com/BjarturG1/status/987811991715794950",
+    "https://twitter.com/BjarturG1/status/988174378075639810",
+    "https://twitter.com/BjarturG1/status/988536767962902528",
+    "https://twitter.com/BjarturG1/status/988899153022513157",
+    "https://twitter.com/BjarturG1/status/989261537134235648",
+    "https://twitter.com/BjarturG1/status/989623928824975360",
+    "https://twitter.com/BjarturG1/status/989986318590636032"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
 
@@ -548,7 +620,11 @@ client.on("message", function(message) {
           var gabstory4 = new Discord.RichEmbed()
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/439151207718715411/image.jpg")
           message.channel.sendEmbed(gabstory4);
-          break;          
+          break;
+    case "dailyponk":
+      if (args[0]) message.channel.sendMessage(ponkerpunker[Math.floor(Math.random() * ponkerpunker.length)])
+      else message.channel.sendMessage("ponkerpunker is coming to town");
+      break;          
   }
 });
 
