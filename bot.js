@@ -367,7 +367,8 @@ var ponkerpunker = [
     "https://twitter.com/BjarturG1/status/989261537134235648",
     "https://twitter.com/BjarturG1/status/989623928824975360",
     "https://twitter.com/BjarturG1/status/989986318590636032",
-    "https://twitter.com/BjarturG1/status/989986318590636032"
+    "https://twitter.com/BjarturG1/status/989986318590636032",
+    "https://twitter.com/BjarturG1/status/990348704518373378"
 ];
 
 client.on("message", function(message) {
