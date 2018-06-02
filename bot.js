@@ -668,7 +668,10 @@ client.on("message", function(message) {
           var gabstory6 = new Discord.RichEmbed()
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/439959252409253908/catareliqu.png")
           message.channel.sendEmbed(gabstory6);
-          break;           
+          break; 
+    case "rolereactionmessage":
+         message.channel.sendMessage("Click ✅ to give yourself the role, click ❌ to remove the role")
+         break;      
   }
 });
 
