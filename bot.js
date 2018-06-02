@@ -398,7 +398,7 @@ client.on("message", function(message) {
      case "listemojis":
     if (message.content === "listemojis") {
     const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
-    else message.channel.send(emojiList);     
+    message.channel.send(emojiList);     
 }        
     break;         
     case "doit":
