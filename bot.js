@@ -394,13 +394,7 @@ client.on("message", function(message) {
     case "thegreatdms":
       if (args[0]) message.channel.sendMessage(guysciencedms[Math.floor(Math.random() * guysciencedms.length)])
       else message.channel.sendMessage("no xDDDDDD");
-      break;
-     case "listemojis":
-    if (message.content === "listemojis") {
-    const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
-    message.channel.send(emojiList);     
-}        
-      break;         
+      break;       
     case "doit":
         var doit = new Discord.RichEmbed()
             .setImage("https://media2.giphy.com/media/3o84sw9CmwYpAnRRni/giphy.gif")
@@ -651,6 +645,12 @@ client.on("message", function(message) {
           message.channel.sendEmbed(gabstory6);
           break;           
   }
+});
+
+if (message.content === "listemojis") {
+    const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
+    message.channel.send(emojiList);     
+}
 });
 
 client.on('ready', function() { 
