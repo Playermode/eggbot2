@@ -377,9 +377,9 @@ var ponkerpunker = [
 
 client.on("MessageReactionAdd", function(users) {
 if (message.content === "Click ✅ to give yourself the role, click ❌ to remove the role") {
-  users.addRole(users.guild.roles.find("name", "Egg"))
+  users.addRole(users.guild.roles.get("452585110340894730"))
 } else if (!message.content === "Click ✅ to give yourself the role, click ❌ to remove the role") {
-  user.removeRole(users.guild.role.find("name", "Egg"))
+  user.removeRole(users.guild.role.get("452585110340894730"))
 }
 });
 
