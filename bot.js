@@ -383,6 +383,10 @@ client.on("message", function(message) {
     message.channel.send(emojiList);     
 }  
 
+  if (message.content === "good") {
+    message.react("452278165134376971");
+}   
+
   if (!message.content.startsWith(PREFIX)) return;
 
   var args = message.content.substring(PREFIX.length).split(" ");
