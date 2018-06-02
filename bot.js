@@ -377,6 +377,11 @@ var ponkerpunker = [
 
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
+  
+  if (message.content === "listemojis") {
+    const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
+    message.channel.send(emojiList);     
+}  
 
   if (!message.content.startsWith(PREFIX)) return;
 
@@ -646,11 +651,6 @@ client.on("message", function(message) {
           break;           
   }
 });
-
-if (message.content === "listemojis") {
-    const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
-    message.channel.send(emojiList);     
-}
 
 client.on('ready', function() { 
     client.user.setGame("You're an egg like gab");
