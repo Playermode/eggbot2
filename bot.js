@@ -400,7 +400,7 @@ client.on("message", function(message) {
     const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
     message.channel.send(emojiList);     
 }        
-    break;         
+      break;         
     case "doit":
         var doit = new Discord.RichEmbed()
             .setImage("https://media2.giphy.com/media/3o84sw9CmwYpAnRRni/giphy.gif")
