@@ -375,14 +375,6 @@ var ponkerpunker = [
     "https://twitter.com/BjarturG1/status/991435869109346304"
 ];
 
-client.on("MessageReactionAdd", function(users) {
-if (message.content === "Click ✅ to give yourself the role, click ❌ to remove the role") {
-  users.addRole(users.guild.roles.get("452585110340894730")
-} else if (!message.content === "Click ✅ to give yourself the role, click ❌ to remove the role") {
-  user.removeRole(users.guild.role.get("452585110340894730")
-}
-});
-
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
