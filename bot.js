@@ -384,8 +384,8 @@ client.on("message", function(message) {
 }  
 
   if (message.content === "good") {
-    const goodegg = client.emojis.get("452278165134376971");  
-    message.react("452278165134376971");
+    const goodegg = client.emojis.get("424584025265405962");  
+    message.react("424584025265405962");
 }   
 
   if (!message.content.startsWith(PREFIX)) return;
