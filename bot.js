@@ -375,13 +375,6 @@ var ponkerpunker = [
     "https://twitter.com/BjarturG1/status/991435869109346304"
 ];
 
-var Cleverbot = require("cleverbot-node");
-cleverbot = new Cleverbot;
-cleverbot.configure({botapi: "IAMKEY"});
-cleverbot.write(cleverMessage, function (response) {
-   console.log(response.output);
-});
-
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
