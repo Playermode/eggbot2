@@ -12,7 +12,7 @@ var fortunes = [
     "YES THATS THE BEST IDEA I HAVE HEARD IN MY LIFE",
     "The egg klan says yes so I say yes",
     "Congrats you've proven that you are in fact an egg with that question  (my answer is no eggling if you couldnt tell) https://vignette.wikia.nocookie.net/club-penguin-rewritten/images/f/fb/Sled_Racing_Clapping_%281%29.gif/revision/latest?cb=20170415231449"
-];  
+]; 
 
 var WOD = [
     "Todays word of the day is Eggtown!",
@@ -374,6 +374,13 @@ var ponkerpunker = [
     "https://twitter.com/BjarturG1/status/991073480945864704",
     "https://twitter.com/BjarturG1/status/991435869109346304"
 ];
+
+var Cleverbot = require("cleverbot-node");
+cleverbot = new Cleverbot;
+cleverbot.configure({botapi: "IAMKEY"});
+cleverbot.write(cleverMessage, function (response) {
+   console.log(response.output);
+});
 
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
