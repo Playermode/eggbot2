@@ -806,7 +806,7 @@ client.on('message', message => {
 if (message.content === "listemojis") {
   const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
   message.channel.send(emojiList);
-}
+    }
 });
 
 //THIS BOT IS ONLY FOR EGGTOWN
