@@ -650,8 +650,7 @@ client.on("message", function(message) {
 if (message.content === "listemojis") {
     const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
     message.channel.send(emojiList);     
-    }
-});
+}
 
 client.on('ready', function() { 
     client.user.setGame("You're an egg like gab");
