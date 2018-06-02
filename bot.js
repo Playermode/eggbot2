@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
 
+
 var fortunes = [
     "Yes",
     "No",
@@ -800,6 +801,12 @@ client.on('message', message => {
     if (message.content === "muffin") {
     	message.reply('ah nou');
     }    
+});
+
+if (message.content === "listemojis") {
+  const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
+  message.channel.send(emojiList);
+}
 });
 
 //THIS BOT IS ONLY FOR EGGTOWN
