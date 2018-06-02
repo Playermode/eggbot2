@@ -394,10 +394,8 @@ client.on("message", function(message) {
 }    
 
   if (message.content === "@everyone") {
-    const ping1 = client.emojis.get("396057873697734669"); 
-    const ping2 = client.emojis.get("384871127778066433");                                
+    const ping1 = client.emojis.get("396057873697734669");                                 
     message.react("396057873697734669");
-    message.react("384871127778066433");  
 }        
 
   if (!message.content.startsWith(PREFIX)) return;
