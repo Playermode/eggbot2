@@ -686,6 +686,12 @@ client.on("message", function(message) {
           var news2 = new Discord.RichEmbed()
               .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633647393275904/nationaleggyday4.png")                
           message.channel.sendEmbed(news2);
+          break;
+    case "test1":
+          var test1 = new Discord.RichEmbed()
+              .addField("egg", " ￼ ")
+              .setThumbnail("https://cdn.discordapp.com/attachments/451836383523242007/452633647393275904/nationaleggyday4.png")                
+          message.channel.sendEmbed(test1);
           break;          
   }
 });
