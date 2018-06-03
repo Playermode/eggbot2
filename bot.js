@@ -761,7 +761,7 @@ client.on("message", function(message) {
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- Today is national eggday!", " ￼ ")
-             .addField("There will be many eggy things occuring today", " ￼ ")
+             .addField("- There will be many eggy things occuring today", " ￼ ")
              .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")
              .addField("- Have an eggy day!", " ￼ ")
          message.channel.sendEmbed(realnews);
