@@ -933,6 +933,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === "OH NO") {
+    	message.reply('OH YES');
+    }    
+});
+
+client.on('message', message => {
     if (message.content === "muffin") {
     	message.reply('ah nou');
     }    
