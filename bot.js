@@ -399,8 +399,8 @@ client.on("message", function(message) {
 }       
     
   if (message.content === "000111") {
-    const ping2 = client.emojis.get("305818615712579584");                                 
-    message.react("305818615712579584");
+    const ping2 = client.emojis.get("384901286866452491");                                 
+    message.react("384901286866452491");
 }       
 
   if (!message.content.startsWith(PREFIX)) return;
