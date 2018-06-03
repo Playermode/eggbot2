@@ -394,12 +394,12 @@ client.on("message", function(message) {
 }    
 
   if (message.content === "@everyone") {
-    const ping1 = client.emojis.get("396057873697734669");                                 
+    const random245 = client.emojis.get("396057873697734669");                                 
     message.react("396057873697734669");
 }       
     
-  if (message.content === "000111") {
-    const ping2 = client.emojis.get("384901286866452491");                                 
+  if (message.content === "what") {
+    const k = client.emojis.get("384901286866452491");                                 
     message.react("384901286866452491");
 }       
 
