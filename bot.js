@@ -684,7 +684,8 @@ client.on("message", function(message) {
           break; 
     case "news2":
           var news2 = new Discord.RichEmbed()
-              .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633647393275904/nationaleggyday4.png")                
+              .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633647393275904/nationaleggyday4.png")
+              .setColor(0x00AE86)
           message.channel.sendEmbed(news2);
           break;
     case "test1":
