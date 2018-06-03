@@ -727,9 +727,10 @@ client.on("message", function(message) {
     title: "New Video!",
     url: "https://youtu.be/rf_Go9eLaAM",
     description: " ￼ ",
-    fields: [{
-        name: " ￼ ",
-        value: "https://youtu.be/rf_Go9eLaAM"
+    video: [{
+        url: "https://youtu.be/rf_Go9eLaAM ",
+        height: "200",
+        width: "200"
       }
     ],
     timestamp: new Date(),
