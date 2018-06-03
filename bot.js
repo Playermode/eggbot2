@@ -753,7 +753,7 @@ client.on("message", function(message) {
     case "realnews":
          var realnews = new Discord.RichEmbed()
              .setTitle("This is your title, it can hold 256 characters")
-             .setAuthor("Playermode", "https://imgur.com/qtewCuV")
+             .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0x00AE86)
              .setDescription("This is the main body of text, it can hold 2048 characters.")
              .setFooter("This is the footer text, it can hold 2048 characters", "http://i.imgur.com/w1vhFSR.png")
