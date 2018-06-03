@@ -755,14 +755,14 @@ client.on("message", function(message) {
              .setTitle("📰**News**")
              .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0x00AE86)
-             .setFooter("© Eggtown", "http://i.imgur.com/w1vhFSR.png")
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
              .setImage("https://i.imgur.com/9PQaqp3.png")
              .setTimestamp()
-             .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
+             .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- Today is national eggday!", " ￼ ")
-             .addField("- There will be many eggy things occuring today", " ￼ ")
+             .addField("There will be many eggy things occuring today", " ￼ ")
              .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")
-             .addField("- Have an eggy day!, " ￼ ");
+             .addField("- Have an eggy day!", " ￼ ")
          message.channel.sendEmbed(realnews);
          break;        
   }
