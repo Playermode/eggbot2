@@ -725,8 +725,7 @@ client.on("message", function(message) {
       icon_url: client.user.avatarURL
     },
     title: "📰News📰",
-    description: "This is a test embed to showcase what they look like and what they can do.",
-    image:"https://cdn.discordapp.com/attachments/451836383523242007/452633646650884097/nationaleggyday3.png",         
+    description: "This is a test embed to showcase what they look like and what they can do.",      
     fields: [{
         name: "- Today is national eggday!",
         value: " ￼ "
