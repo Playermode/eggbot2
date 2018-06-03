@@ -399,7 +399,7 @@ client.on("message", function(message) {
 }       
     
   if (message.content === "000111") {
-    const ping1 = client.emojis.get("305818615712579584");                                 
+    const ping2 = client.emojis.get("305818615712579584");                                 
     message.react("305818615712579584");
 }       
 
