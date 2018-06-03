@@ -401,7 +401,17 @@ client.on("message", function(message) {
   if (message.content === "what") {
     const k = client.emojis.get("384901286866452491");                                 
     message.react("384901286866452491");
-}       
+}  
+    
+  if (message.content === "drew") {
+    const drew1 = client.emojis.get("452932328893710336");                                 
+    message.react("452932328893710336");
+}     
+    
+  if (message.content === "Drew") {
+    const drew2 = client.emojis.get("452932328893710336");                                 
+    message.react("452932328893710336");
+}     
 
   if (!message.content.startsWith(PREFIX)) return;
 
