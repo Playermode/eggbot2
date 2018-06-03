@@ -675,9 +675,9 @@ client.on("message", function(message) {
     case "news":
           var news = new Discord.RichEmbed()
               .setTitle("**📰News📰**")
-              .addField("- Today is national eggday!", " ￼ ")
+              .addField("- Today is national [eggday](https://twitter.com/RealPlayermode/status/1003156199959916544)!", " ￼ ")
               .addField("- There will be many eggy things occuring today", " ￼ ")
-              .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")   
+              .addField("- Make sure to check [#polls-and-giveaways] for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")   
               .addField("- Have an eggy day!", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633646650884097/nationaleggyday3.png")                
           message.channel.sendEmbed(news);
@@ -759,9 +759,9 @@ client.on("message", function(message) {
              .setImage("https://i.imgur.com/9PQaqp3.png")
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
-             .addField("- Today is national eggday!", " ￼ ")
+             .addField("- Today is national [eggday](https://twitter.com/RealPlayermode/status/1003156199959916544)!", " ￼ ")
              .addField("There will be many eggy things occuring today", " ￼ ")
-             .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")
+             .addField("- Make sure to check [#polls-and-giveaways](https://discord.gg/qeWrK6z) for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")
              .addField("- Have an eggy day!", " ￼ ")
          message.channel.sendEmbed(realnews);
          break;        
