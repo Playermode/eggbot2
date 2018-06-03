@@ -763,7 +763,6 @@ var realnews = new Discord.RichEmbed()
     .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
     .addField("This is a field title, it can hold 256 characters", "This is a field value, it can hold 2048 characters.")
     .addField("Inline Field", "They can also be inline.", true)
-    .addBlankField(true)
     .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
   message.channel.send({realnews});
   break;        
