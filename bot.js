@@ -717,6 +717,28 @@ client.on("message", function(message) {
     }
   }
 });
+    case "test2":
+         message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "New Video!",
+    url: "https://youtu.be/rf_Go9eLaAM",
+    description: " ￼ ",
+    fields: [{
+        name: " ￼ ",
+        value: "https://youtu.be/rf_Go9eLaAM"
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "©Eggtown"
+    }
+  }
+});         
   }
 });
 
