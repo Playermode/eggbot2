@@ -725,7 +725,7 @@ client.on("message", function(message) {
       icon_url: client.user.avatarURL
     },
     title: "📰News📰",
-    description: "This is a test embed to showcase what they look like and what they can do.",      
+    description: " ￼ ",      
     fields: [{
         name: "- Today is national eggday!",
         value: " ￼ "
