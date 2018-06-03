@@ -751,6 +751,7 @@ client.on("message", function(message) {
     }
   }
 });
+         break; 
     case "realnews":
          var realnews = new Discord.RichEmbed()
              .setTitle("📰**News**📰")
