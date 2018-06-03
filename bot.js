@@ -671,7 +671,22 @@ client.on("message", function(message) {
           break; 
     case "rolereactionmessage":
          message.channel.sendMessage("Click ✅ to give yourself the role, click ❌ to remove the role")
-         break;      
+         break;
+    case "news":
+          var news = new Discord.RichEmbed()
+              .setTitle("**📰News📰**")
+              .addField("- Today is national eggday!", " ￼ ")
+              .addField("- There will be many eggy things occuring today", " ￼ ")
+              .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")   
+              .addField("- Have an eggy day!", " ￼ ")
+              .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633646650884097/nationaleggyday3.png")                
+          message.channel.sendEmbed(news);
+          break; 
+    case "news2":
+          var news2 = new Discord.RichEmbed()
+              .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633647393275904/nationaleggyday4.png")                
+          message.channel.sendEmbed(news2);
+          break;          
   }
 });
 
