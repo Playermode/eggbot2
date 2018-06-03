@@ -752,7 +752,7 @@ client.on("message", function(message) {
 });
     case "realnews":
          var realnews = new Discord.RichEmbed()
-             .setTitle("📰**News**")
+             .setTitle("📰**News**📰")
              .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0x00AE86)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
