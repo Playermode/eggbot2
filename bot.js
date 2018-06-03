@@ -717,29 +717,40 @@ client.on("message", function(message) {
     }
   }
 });
-    case "test2":
+    case "news1":
          message.channel.send({embed: {
     color: 3447003,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "New Video!",
-    url: "https://youtu.be/rf_Go9eLaAM",
-    description: " ￼ ",
-    video: [{
-        url: "https://youtu.be/rf_Go9eLaAM ",
-        height: "200",
-        width: "200"
-      }
+    title: "📰News📰",
+    description: "This is a test embed to showcase what they look like and what they can do.",
+    image:"https://cdn.discordapp.com/attachments/451836383523242007/452633646650884097/nationaleggyday3.png",         
+    fields: [{
+        name: "- Today is national eggday!",
+        value: " ￼ "
+      },
+      {
+        name: "- There will be many eggy things occuring today",
+        value: " ￼ "
+      },
+      {
+        name: "- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)",
+        value: " ￼ "
+      },
+      {       
+        name: "- Have an eggy day!",
+        value: " ￼ "
+      }              
     ],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "©Eggtown"
+      text: "© Eggtown"
     }
   }
-});         
+});             
   }
 });
 
