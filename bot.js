@@ -781,7 +781,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("You're an egg like gab");
+    client.user.setGame("Club Egguin Online");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
