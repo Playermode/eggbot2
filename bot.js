@@ -871,12 +871,15 @@ client.on("message", function(message) {
          message.channel.sendEmbed(elect8);
          break;   
     case "elect9": 
-         var elect1 = new Discord.RichEmbed()
+         var elect9 = new Discord.RichEmbed()
              .setTitle("AndrewDoesStuff")
              .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321621175271435/cd8ee3917c4feab376feed6adf704c0d.png")
              .addField("React with ☑ to vote for AndrewDoesStuff.  They're running for Mod.", " ￼ ")
-         message.channel.sendEmbed(elect2);
-         break;           
+         message.channel.sendEmbed(elect9);
+         break;
+    case "electionsinfo":
+      message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
+         break; 
   }
 });
 
