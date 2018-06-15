@@ -811,7 +811,7 @@ client.on("message", function(message) {
          break;
     case "electionsimage": 
          var electionsimage = new Discord.RichEmbed()
-             .setImage("https://i.imgur.com/ZeXwZli.png"
+             .setImage("https://i.imgur.com/ZeXwZli.png")
          message.channel.sendEmbed(electionsimage); 
          break;
     case "elect1": 
