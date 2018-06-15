@@ -789,7 +789,7 @@ client.on("message", function(message) {
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- Today is the start of the Eggtown Elections", " ￼ ")
              .addField("- This event will last until 6/15/18 at 8:00pm EST", " ￼ ")
-             .addField("- New Emotes ${okeggelections}", " ￼ ")
+             .addField("- New Emote ${okeggelections}", " ￼ ")
              .addField("- Its time to vote for staff to be promoted or new staff in #elections!", " ￼ ")
          message.channel.sendEmbed(electionsnews);
          break;                  
