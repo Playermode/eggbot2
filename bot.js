@@ -831,7 +831,7 @@ client.on("message", function(message) {
     case "elect3": 
          var elect3 = new Discord.RichEmbed()
              .setTitle("Drew")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321425938939904/7b1decfdbdaa6a39406b1d7544cda33a.png")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321188444864523/8975d5537862b3445c05610fafa3839d.png")
              .addField("React with ☑ to vote for Drew.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect3);
          break;
