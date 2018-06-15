@@ -808,6 +808,74 @@ client.on("message", function(message) {
              .addField("- If you're mod you can enter to become an admin, if you're not staff you can enter to become a mod <:okeggelections:439195075050733580>", " ￼ ")
              .addField("- 2 new mods will be chosen and 1 new admin will be chosen.  If anyone ties both people will get the role. <:egg2:424370317243187200>", " ￼ ")         
          message.channel.sendEmbed(electionsnews1);
+         break;
+    case "electionsimage": 
+         var electionsimage = new Discord.RichEmbed()
+             .setImage("https://i.imgur.com/ZeXwZli.png"
+         message.channel.sendEmbed(electionsimage); 
+         break;
+    case "elect1": 
+         var elect1 = new Discord.RichEmbed()
+             .setTitle("JoseTheJbot")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321444783816706/3e64526ab26c9b04325a2209595dc765.png")
+             .addField("React with ☑ to vote for JoseTheJbot.  They're running for Admin.", " ￼ ")
+         message.channel.sendEmbed(elect1);
+         break; 
+    case "elect2": 
+         var elect2 = new Discord.RichEmbed()
+             .setTitle("Pengkip")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321425938939904/7b1decfdbdaa6a39406b1d7544cda33a.png")
+             .addField("React with ☑ to vote for Pengkip.  They're running for Admin.", " ￼ ")
+         message.channel.sendEmbed(elect2);
+         break; 
+    case "elect3": 
+         var elect3 = new Discord.RichEmbed()
+             .setTitle("Drew")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321425938939904/7b1decfdbdaa6a39406b1d7544cda33a.png")
+             .addField("React with ☑ to vote for Drew.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect3);
+         break;
+    case "elect4": 
+         var elect4 = new Discord.RichEmbed()
+             .setTitle("TypicalLlamaJoey")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321264558637077/07291f74b7c452924d595d7c908e0a06.png")
+             .addField("React with ☑ to vote for TypicalLlamaJoey.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect4);
+         break;
+    case "elect5": 
+         var elect5 = new Discord.RichEmbed()
+             .setTitle("Ouattack")
+             .setImage("https://media.discordapp.net/attachments/457304041983311872/457321297064493089/63eed8d6bf4571549c7822ba0a774bd6.png")
+             .addField("React with ☑ to vote for Ouattack.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect5);
+         break; 
+    case "elect6": 
+         var elect6 = new Discord.RichEmbed()
+             .setTitle("ChickenFriedKarma")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321348117692416/baa59188d82c5dff4d822bea61c23959.png")
+             .addField("React with ☑ to vote for ChickenFriedKarma.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect6);
+         break; 
+    case "elect7": 
+         var elect7 = new Discord.RichEmbed()
+             .setTitle("PlanetPuffle")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321372801302529/718c17b989d4ec933e3739da921c11fc.png")
+             .addField("React with ☑ to vote for PlanetPuffle.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect7);
+         break;  
+    case "elect8": 
+         var elect8 = new Discord.RichEmbed()
+             .setTitle("Kurra")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321402622803978/9323f4a862cec97b962bd40f90fd3150.png")
+             .addField("React with ☑ to vote for Kurra.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect8);
+         break;   
+    case "elect9": 
+         var elect1 = new Discord.RichEmbed()
+             .setTitle("AndrewDoesStuff")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321621175271435/cd8ee3917c4feab376feed6adf704c0d.png")
+             .addField("React with ☑ to vote for AndrewDoesStuff.  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect2);
          break;           
   }
 });
