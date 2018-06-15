@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
-const elections = client.emojis.find("name", "okeggelections");
 
 
 var fortunes = [
@@ -779,6 +778,7 @@ client.on("message", function(message) {
          message.channel.sendEmbed(realnews);
          break;
     case "electionsnews":
+         const elections = client.emojis.find("name", "okeggelections");
          var electionsnews = new Discord.RichEmbed()
              .setTitle("📰**News**📰")
              .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
@@ -789,7 +789,7 @@ client.on("message", function(message) {
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- Today is the start of the Eggtown Elections", " ￼ ")
              .addField("- This event will last until 6/15/18 at 8:00pm EST", " ￼ ")
-             .addField("- New Emotes ${okeggelections}!", " ￼ ")
+             .addField("- New Emotes ${okeggelections}", " ￼ ")
              .addField("- Its time to vote for staff to be promoted or new staff in #elections!", " ￼ ")
          message.channel.sendEmbed(electionsnews);
          break;                  
