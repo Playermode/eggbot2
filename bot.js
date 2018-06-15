@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
+const elections = client.emojis.find("name", "okeggelections");
 
 
 var fortunes = [
@@ -776,7 +777,22 @@ client.on("message", function(message) {
              .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")
              .addField("- Have an eggy day!", " ￼ ")
          message.channel.sendEmbed(realnews);
-         break;        
+         break;
+    case "electionsnews":
+         var electionsnews = new Discord.RichEmbed()
+             .setTitle("📰**News**📰")
+             .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
+             .setColor(0x00AE86)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://i.imgur.com/Fi8hjHC.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- Today is the start of the Eggtown Elections", " ￼ ")
+             .addField("- This event will last until 6/15/18 at 8:00pm EST", " ￼ ")
+             .addField("- New Emotes ${okeggelections}!", " ￼ ")
+             .addField("- Its time to vote for staff to be promoted or new staff in #elections!", " ￼ ")
+         message.channel.sendEmbed(electionsnews);
+         break;                  
   }
 });
 
