@@ -830,11 +830,11 @@ client.on("message", function(message) {
          break; 
     case "elect3": 
          var elect3 = new Discord.RichEmbed()
-             .setTitle("Drew")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321188444864523/8975d5537862b3445c05610fafa3839d.png")
-             .addField("React with ☑ to vote for Drew.  They're running for Mod.", " ￼ ")
+             .setTitle("Ouattack")
+             .setImage("https://media.discordapp.net/attachments/457304041983311872/457321297064493089/63eed8d6bf4571549c7822ba0a774bd6.png")
+             .addField("React with ☑ to vote for Ouattack.  They're running for Admin.", " ￼ ")
          message.channel.sendEmbed(elect3);
-         break;
+         break; 
     case "elect4": 
          var elect4 = new Discord.RichEmbed()
              .setTitle("TypicalLlamaJoey")
@@ -844,9 +844,9 @@ client.on("message", function(message) {
          break;
     case "elect5": 
          var elect5 = new Discord.RichEmbed()
-             .setTitle("Ouattack")
-             .setImage("https://media.discordapp.net/attachments/457304041983311872/457321297064493089/63eed8d6bf4571549c7822ba0a774bd6.png")
-             .addField("React with ☑ to vote for Ouattack.  They're running for Mod.", " ￼ ")
+             .setTitle("Drew")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321188444864523/8975d5537862b3445c05610fafa3839d.png")
+             .addField("React with ☑ to vote for Drew.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect5);
          break; 
     case "elect6": 
