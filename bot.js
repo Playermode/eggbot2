@@ -794,7 +794,6 @@ client.on("message", function(message) {
          message.channel.sendEmbed(electionsnews);
          break;   
     case "electionsnews1":
-         const elections = client.emojis.find("name", "okeggelections");
          var electionsnews1 = new Discord.RichEmbed()
              .setTitle("📰**News**📰")
              .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
