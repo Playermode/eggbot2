@@ -788,11 +788,28 @@ client.on("message", function(message) {
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- Today is the start of the Eggtown Elections", " ￼ ")
-             .addField("- This event will last until 6/15/18 at 8:00pm EST", " ￼ ")
+             .addField("- This event will last until 6/18/18 at 8:00pm EST", " ￼ ")
              .addField("- New Emote <:okeggelections:439195075050733580>", " ￼ ")
              .addField("- Its time to vote for staff to be promoted or new staff in #elections!", " ￼ ")
          message.channel.sendEmbed(electionsnews);
-         break;                  
+         break;   
+    case "electionsnews1":
+         const elections = client.emojis.find("name", "okeggelections");
+         var electionsnews1 = new Discord.RichEmbed()
+             .setTitle("📰**News**📰")
+             .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
+             .setColor(0x00AE86)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://i.imgur.com/Fi8hjHC.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- Tomorrow is the start of the Eggtown Elections", " ￼ ")
+             .addField("- This event will be held between 6/15/18 to 6/18/18", " ￼ ")
+             .addField("- To enter the elections dm Playermode#8623", " ￼ ")
+             .addField("- If you're mod you can enter to become an admin, if you're not staff you can enter to become a mod <:okeggelections:439195075050733580>", " ￼ ")
+             .addField("- 2 new mods will be chosen and 1 new admin will be chosen.  If anyone ties both people will get the role. <:egg2:424370317243187200>", " ￼ ")         
+         message.channel.sendEmbed(electionsnews1);
+         break;           
   }
 });
 
