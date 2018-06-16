@@ -877,6 +877,13 @@ client.on("message", function(message) {
              .addField("React with ☑ to vote for AndrewDoesStuff.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect9);
          break;
+    case "elect10": 
+         var elect10 = new Discord.RichEmbed()
+             .setTitle("Horsii (Powneh)")
+             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457320678992117761/832c48167a5207b974a5528394a2aa8a.png")
+             .addField("React with ☑ to vote for Horsii (powneh).  They're running for Mod.", " ￼ ")
+         message.channel.sendEmbed(elect10);
+         break;          
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
          break; 
