@@ -887,6 +887,11 @@ client.on("message", function(message) {
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
          break; 
+    case "lunimage":   
+         var lun = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/386610342077267968/457730427420147733/coollogo_com-18835349.png")
+         message.channel.sendEmbed(lun);
+         break;      
   }
 });
 
