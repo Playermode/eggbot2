@@ -891,7 +891,19 @@ client.on("message", function(message) {
          var lun = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/457730427420147733/coollogo_com-18835349.png")
          message.channel.sendEmbed(lun);
-         break;      
+         break;
+    case "lunrules":   
+         var lunrules = new Discord.RichEmbed()
+             .addField("1. Gab must be respected every hr", " ￼ ")
+             .addField("2. CHILDHOOD JOKES ONLY IN #mature 😤🙏", " ￼ ")
+             .addField("3. no pengnax heck all of u", " ￼ ")
+             .addField("4. i kinda wanna play poptropica playing poptropica is allowed", " ￼ ")
+             .addField("5. ocean man is our new anthem", " ￼ ")
+             .addField("6. please ping me to be productive i need to work on my cprmv (not too much tho)", " ￼ ")
+             .addField("7. and the basic rules no cursing or ban u eggs", " ￼ ")
+             .addField("8. DOOR JOKES IN #mature", " ￼ ")
+         message.channel.sendEmbed(lunrules);
+         break; 
   }
 });
 
