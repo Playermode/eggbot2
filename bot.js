@@ -904,7 +904,7 @@ client.on("message", function(message) {
              .addField("8. DOOR JOKES IN #mature", " ￼ ")
          message.channel.sendEmbed(lunrules);
          break; 
-    case "101daysofegg":
+    case "101daysofeggronis":
          var daysofegg = new Discord.RichEmbed()
              .setTitle("📰**News**📰")
              .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
