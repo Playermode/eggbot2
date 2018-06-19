@@ -904,6 +904,21 @@ client.on("message", function(message) {
              .addField("8. DOOR JOKES IN #mature", " ￼ ")
          message.channel.sendEmbed(lunrules);
          break; 
+    case "101daysofegg":
+         var daysofegg = new Discord.RichEmbed()
+             .setTitle("📰**News**📰")
+             .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
+             .setColor(0x00AE86)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://i.imgur.com/agGDCRv.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- <:eggsdee:458731373188874243> Today is the start of the 101 days of egg <:eggsdee:458731373188874243>", " ￼ ")
+             .addField("- This event will last 101 days if you couldn't tell", " ￼ ")
+             .addField("- There will be at least one egg thing to egg yourself with each day. (Such as a giveaway or whatever staff decide)", " ￼ ")
+             .addField("- Its time to egg yourself with eggtivites", " ￼ ")
+         message.channel.sendEmbed(daysofegg);
+         break;           
   }
 });
 
