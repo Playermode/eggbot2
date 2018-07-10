@@ -930,7 +930,7 @@ client.on("message", function(message) {
 
 client.on('ready', function() { 
     client.user.setGame("🥚!help🥚");
-    client.user.setUsername("Egg Bot");
+    client.user.setUsername("Egg Bot²");
     console.log('I am ready!');
 });
 
