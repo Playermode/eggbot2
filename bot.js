@@ -921,7 +921,7 @@ client.on("message", function(message) {
          break;  
     case "announce":
          var eggtown2 = new Discord.RichEmbed() 
-             .addField("🤔")
+             .addField("🤔", " ￼ ")
              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/466362441727737858/9d74db056b732c14d70013de2aa74f10.png")
          message.channel.sendEmbed(eggtown2);
          break;    
