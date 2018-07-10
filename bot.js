@@ -634,7 +634,7 @@ client.on("message", function(message) {
          break;
     case "rulesegger":
           var rulesegg = new Discord.RichEmbed()
-              .setTitle(":egg: **Rules Of Eggtown** :egg:")
+              .setTitle(":egg: **Rules Of Eggtown²** :egg:")
               .addField("```- 1.  No swearing```", " ￼ ")
               .addField("```- 2.  Don't Disrespect Others```", " ￼ ")
               .addField("```- 3.  Do not harass anyone at all```", " ￼ ")   
