@@ -70,7 +70,12 @@ var WOD = [
     "Todays word of the day is FabledFish!",
     "Todays word of the day is Baseball",
     "Todays word of the day is Baseball Discord",
-    "Todays word of the day is TypicalLlamaJoey"
+    "Todays word of the day is TypicalLlamaJoey",
+    "The egg council!",
+    "Eggtown 2",
+    "Vacation",
+    "nothing will go wrong!",
+    "Have a nice vacation in eggtown 2"
 ];
 
 var eggrating = [
@@ -919,11 +924,11 @@ client.on("message", function(message) {
              .addField("- Its time to egg yourself with eggtivites", " ￼ ")
          message.channel.sendEmbed(daysofegg);
          break;  
-    case "announce":
-         var eggtown2 = new Discord.RichEmbed() 
-             .addField("🤔", " ￼ ")
-             .setImage("https://cdn.discordapp.com/attachments/386610342077267968/466362441727737858/9d74db056b732c14d70013de2aa74f10.png")
-         message.channel.sendEmbed(eggtown2);
+    case "defcon":
+         var defcon = new Discord.RichEmbed() 
+             .setTitle("Eggtown 2 is currently in **defcon 1**")
+             .setImage("https://cdn.discordapp.com/attachments/451836383523242007/467055142399639552/defcon1.png")
+         message.channel.sendEmbed(defcon);
          break;    
   }
 });
