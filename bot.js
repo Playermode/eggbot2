@@ -690,11 +690,11 @@ client.on("message", function(message) {
     case "news":
           var news = new Discord.RichEmbed()
               .setTitle("**📰News📰**")
-              .addField("- Today is national eggday!", " ￼ ")
-              .addField("- There will be many eggy things occuring today", " ￼ ")
-              .addField("- Make sure to check #polls-and-giveaways for giveaways today (do !pollsrole to be notified when a new poll or giveaway comes out)", " ￼ ")   
-              .addField("- Have an eggy day!", " ￼ ")
-              .setImage("https://cdn.discordapp.com/attachments/451836383523242007/452633646650884097/nationaleggyday3.png")                
+              .addField("- Project ???² is revealed to be Eggtown 2!", " ￼ ")
+              .addField("- Eggtown 2 is a new town that can be used as a backup incase eggtown goes to egg!  Right now it can be used as a vacation spot!", " ￼ ")
+              .addField("- The egg council invites you to stay!  Nothing in eggtown 2 will go wrong!", " ￼ ")   
+              .addField("- We hope to see you in eggtown 2!", " ￼ ")
+              .setImage("https://cdn.discordapp.com/attachments/451836383523242007/467060253138354177/eggtown2postcard.png")                
           message.channel.sendEmbed(news);
           break; 
     case "news2":
