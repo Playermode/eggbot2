@@ -926,8 +926,8 @@ client.on("message", function(message) {
          break;  
     case "defcon":
          var defcon = new Discord.RichEmbed() 
-             .setTitle("Eggtown 2 is currently in **defcon 4**")
-             .setImage("https://cdn.discordapp.com/attachments/451836383523242007/467055138150940704/defcon4.png")
+             .setTitle("Eggtown 2 is currently in **defcon 5**")
+             .setImage("https://cdn.discordapp.com/attachments/451836383523242007/467055136980860929/defcon5.png")
          message.channel.sendEmbed(defcon);
          break;    
   }
